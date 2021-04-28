@@ -1,0 +1,13 @@
+# Run in terminal:  $ docker-compose up -d
+#                   $ docker-compose exec prodigy bash (interactive bash session)
+
+version: "3.3"
+services:
+  prodigy:
+    image: slovak-ner/prodigy:1.0
+    stdin_open: true
+    tty: true
+    ports:
+      - "8888:8080"
+    volumes:
+      - ./prodigy-data:/data
