@@ -21,7 +21,7 @@ def clean_wiki(in_path, out_path):
             content = in_f.read()
             for chunk in content.split('\n\n'):
                 for row in chunk.split('\n'):
-                    cleaned = process_row(row)
+                    cleaned = process_row(row, conll_2003=True)
                     if cleaned is not None:
                         print(cleaned, file=out_f)
                 print('', file=out_f)
@@ -31,7 +31,7 @@ def main():
     datasets = ['test', 'dev', 'train']
     for dataset in datasets:
         in_path = f'raw_data/{dataset}.txt'
-        out_path = f'cleaned_data/{dataset}_cleaned.txt'
+        out_path = f'conll2003_data/{dataset}_cleaned.txt'
         clean_wiki(in_path, out_path)
 
 

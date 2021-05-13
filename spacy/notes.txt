@@ -1,0 +1,11 @@
+# CONVERT DATA
+python -m spacy convert --converter ner wikiann/cleaned_data/train_cleaned.txt wikiann/wikiann2spacy
+
+# INIT CONFIG FROM BASE
+python -m spacy init fill-config base_config.cfg config.cfg
+
+# TRAIN
+python -m spacy train config.cfg --paths.train ../wikiann/wikiann2spacy/train_cleaned.spacy --paths.dev ../wikiann/wikiann2spacy/dev_cleaned.spacy
+
+# TEST
+python -m spacy evaluate output/model-best/ ../wikiann/wikiann2spacy/test_cleaned.spacy
