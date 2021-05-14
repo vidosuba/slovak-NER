@@ -14,6 +14,20 @@ even in low-resource languages, such as Slovak.
 - Take advantage of transfer learning between multilingual and Slovak NER
 models
   
-# Links
+## Links
  - [Presentation](./diploma/project_seminar_1.pdf) for Project Seminar 1
  - [Structure of thesis](./diploma/dplm.pdf)
+ - [Prodigy](http://http://davidsuba.tk:8888/)
+
+## Used Publications
+ - [MasakhaNER: Named Entity Recognition for African Languages](https://arxiv.org/pdf/2103.11811.pdf)
+ - [Benchmarking Pre-trained Language Models for Multilingual NER: TraSpaS at the BSNLP2021 Shared Task.  InProceedings of the 8th Workshop on Balto-Slavic Natural Language Process-ing](https://www.aclweb.org/anthology/2021.bsnlp-1.13.pdf)
+ - [DAGA: Data Augmentation with a Generation Approach for
+Low-resource Tagging Tasks](https://www.aclweb.org/anthology/2020.emnlp-main.488.pdf)
+
+## Progress
+ - find all existing Slovak NER datasets
+ - clean WikiANN dataset
+ - train Trankit model on WikiANN
+ - train Spacy model on WikiANN
+ - deploy and test prodigy tool
