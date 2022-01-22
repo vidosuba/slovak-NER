@@ -1,0 +1,692 @@
+<doc id="5848" title="Algoritmus" url="https://sk.wikipedia.org/wiki?curid=5848">
+Algoritmus
+
+Algoritmus je konečná postupnosť presne definovaných inštrukcií na splnenie určitej úlohy. Algoritmus je elementárnym pojmom informatiky – nie je ho možné popísať pomocou ešte elementárnejších pojmov – tak ako napr. pojmy bod a číslo v matematike. Algoritmus nazývame čiastočne správny, ak v prípade že skončí, dáva vždy správne výsledky. Algoritmus nazývame konečný, ak pre ľubovoľné vstupné údaje skončí v konečnom čase. Algoritmus, ktorý je čiastočne správny a konečný, sa nazýva správny. Algoritmizácia je schopnosť aktívne vytvárať algoritmy určené pre nemysliace zariadenie. Je nevyhnutná pri vytváraní počítačových programov. Program je algoritmus napísaný v programovacom jazyku.
+Vlastnosti algoritmov.
+Vzhľadom na svoju dlhú históriu predstavuje slovo algoritmus veľmi všeobecný pojem, ktorý nemá jednoznačnú formálnu definíciu. Preto sa jeho súčasná neformálna definícia v informatike obmedzuje vlastnosťami, ktoré musí spĺňať, aby sa dali algoritmy podrobiť vedeckému skúmaniu. Neexistuje jednoznačná zhoda na jedinej správnej formálnej definícií, a preto existuje niekoľko rôznych neformálnych charakterizácií. Niekedy sa tieto definície líšia len zápisom, že niektoré vlastnosti sú spojené, inak nazvané, alebo zahrnuté do samotnej definície pojmu algoritmus.
+Vlastnosti podľa Donalda Knutha.
+Algoritmus je definovaný ako „konečná množina pravidiel, ktorá popisuje postupnosť operácií na riešenie určitého typu problému“. Zároveň spĺňa nasledovné vlastnosti:
+Knuth poznamenáva, že v praxi samotná podmienka konečnosti nestačí a algoritmus by mal skončiť po „veľmi konečnom“, teda rozumnom počte krokov. Uvádza ako príklad algoritmus, ktorý zistí, či biely vždy môže vyhrať šachovú partiu, pokiaľ neurobí chybu. Tento algoritmus je síce konečný, ale jeho vykonanie presahuje dĺžku ľudského života. V praxi nás preto zaujímajú len "dobré" algoritmy, ktoré spĺňajú rôzne kritéria. Jedným z nich je počet krokov potrebných na vykonanie algoritmu, ďalšie napr. jednoduchosť, či elegancia.
+Vlastnosti podľa Algoritmizácia a úvod do programovania.
+Algoritmus je definovaný ako "návod na vykonanie činnosti, ktorý nás od (meniteľných) vstupných údajov privedie v konečnom čase k výsledku.". Zároveň splňa nasledovné vlastnosti:
+Pri bližšom pozorovaní vidíme, že Knuthova vlastnosť vstupu je obsiahnutá v definícií algoritmu, vlastnosť výstupu je rezultatívnosť a Knuthova efektivita je obsiahnutá pod pojmom elementárnosť. V skutočnosti sa spomenuté dve definície líšia len vo vlastnosti efektívnosti (v zmysle počtu krokov algoritmu) a všeobecnosti, ktoré tu však tiež nie sú považované za nutné vlastnosti algoritmov. V skutočnosti sú tak tieto dve definície algoritmov totožné a líšia sa len zápisom.
+Etapy algoritmizácie úloh.
+Spracovanie informácií predstavuje proces, v ktorom sú konkrétne vstupné údaje pretvárané do výsledkov, ktoré možno použiť na riadenie a rozhodovanie. Ak chceme riešiť akúkoľvek úlohu na počítači, treba ju rozdeliť na celý rad prípravných prác – etáp.
+Algoritmizácia úloh má tri základné etapy:
+Formulácia úlohy
+Prvým predpokladom, aby sme danú úlohu mohli riešiť na počítači, je jej jasná a jednoznačná formulácia a identifikácia, ako aj ujasnenie cieľa, ktorý sledujeme riešením príslušnej úlohy. Za tým nasleduje tzv. formulácia problému, napr. matematickými prostriedkami (modelom), čiže problém musíme formalizovať pomocou nejakej sústavy vzťahov medzi premennými a konštantami. Formalizovanie konkrétnej úlohy si spravidla vyžaduje individuálny prístup, adaptáciu štandardných postupov, príp. nový typ modelu. Na formalizáciu možno použiť aj iný spôsob ako matematický, môže to byť napr. grafický model. Pre riešenie úloh na počítači je však matematická formulácia najvhodnejšia.
+Analýza úlohy
+V tejto etape je potrebné nájsť algoritmus riešenia úlohy. Zisťuje sa, či úloha je riešiteľná, či má jedno alebo viac riešení, načrtávajú sa možnosti riešenia a rozhoduje sa o druhu metód. Vytypovaná metóda riešenia musí zabezpečovať dosiahnutie požadovaných výsledkov (výstupné informácie), ale zároveň musí presne určiť, ktoré vstupné údaje budú potrebné. Úloha sa zovšeobecňuje a uskutočňuje sa prvá predstava o algoritmickej riešiteľnosti.
+Zostavenie riešiaceho algoritmu
+Po správnej formulácii a analýze úlohy nasleduje etapa syntetickej činnosti, v ktorej sa popíše logika a postup riešenia úlohy. Výsledkom tejto etapy je riešiaci algoritmus.
+Do tejto etapy môžeme zahrnúť aj programovanie úlohy. Pod pojmom programovanie rozumieme činnosť, pomocou ktorej sa uskutočňuje prevod úlohy z ľudského vedomia do formy vhodnej pre spracovanie na počítači. Výsledkom tejto činnosti je program. Program je algoritmus v takej forme, ktorej rozumie počítač, t. j. program je zápis algoritmu v niektorom programovacom jazyku.
+
+</doc>
+<doc id="5897" title="Giuseppe Verdi" url="https://sk.wikipedia.org/wiki?curid=5897">
+Giuseppe Verdi
+
+Giuseppe Fortunino Francesco Verdi (* 10. október 1813, Le Roncole, Taliansko – † 27. január 1901, Miláno) bol taliansky hudobný skladateľ. Jeho dielo bolo veľmi populárne už za jeho života a zostáva ním dodnes.
+Život.
+Narodil sa v mestečku Roncole neďaleko Parmy. Prvé hudobné vlohy prejavil ako osemročný, a tak mu rodičia v bazáre kúpili spinet.
+Svoje hudobné vzdelanie získal v Bussete, kam sa presťahoval v roku 1824, od Ferdinanda Provesiho. Potom študoval súkromne (na konzervatórium ho v roku 1832 pre „nedostatok talentu“ nevzali) kompozíciu v Miláne u Vincenza Lavigna. V rokoch 18361839 bol dirigentom mestského orchestra a riaditeľom hudobnej školy v Bussete. V roku 1838 Giovanni Ricordi kúpil jeho autorské práva. Ricordiovci ich vlastnili celý Verdiho život.
+Od roku 1839 žil ako slobodný umelec v Miláne, v Paríži a na svojom majetku pri Bussete. O mesiac nato mu zomrel syn a po pár mesiacoch zomrela aj dcéra a manželka. Písal sa rok 1840 a mladý vdovec musel prehltnúť fatálny neúspech svojej druhej opery, ktorú po premiére stiahli z repertoáru. Zdrvený Verdi sa utiahol do súkromia a krízu sa pokúsil vyriešiť prácou. Jeho prvým ozajstným úspechom bola opera "Nabucco" (1842) s premiérou v La Scale a spevom sopranistky Giuseppiny Strepponiovej, ktorá sa stala jeho milenkou a neskôr druhou ženou. Táto biblická opera s nezabudnuteľným židovským zborom v závere tretieho dejstva z neho spravila národného skladateľa číslo jeden.
+V posledných rokoch života sa venoval revízii starších diel a celkom úspešne sa pokúsil vykročiť zo sveta opery svojím "Requiem" a sakrálnymi skladbami "Te Deum" a "Stabat mater". Vlastenecké námety prvých opier ho spojili s hnutím za zjednotenie Talianska, preto zomrel ako národný hrdina.
+Zomrel 27. januára 1901 na následky komplikovaného infarktu. Komorný smútočný obrad sa konal presne podľa jeho želania „Bez hudby a spevu“. Ulice Milána v deň pohrebu zaplnilo asi štvrť milióna Talianov.
+Charakteristika tvorby.
+Stredobodom jeho opier je človek. Jeho estetickým krédom bola jednoduchosť, prirodzenosť a pravdivosť. Bol realistom, volil pravdivú charakteristiku a napriek zdanlivo naivným a konvenčným prostriedkom strhuje pravdivosť citového zážitku pátosom, silou vášne a ušľachtilosťou hudobnej krásy. Operná tvorba G. Verdiho vychádza z dvestoročnej tradície talianskej opery. Používal tradičné, uzavreté formy. Faktúra jeho orchestra nikdy neprerástla do symfonických rozmerov.
+Verdi chcel svoju hudbu založiť na pravdivosti pocitov a vernosti ich melodického vyjadrenia. Bol špecialista na melódiu, dramatickosť a orchestrálnu farebnosť. V jeho dielach všetko stojí na ľudskom hlase, nikdy nedovolil dominovať orchestru. Zaujímal ho predovšetkým človek – a keď mu cenzúra v "Maškarnom bále" zakázala historický rámec deja, Verdi jednoducho spravil zo švédskeho kráľa bostonského guvernéra a podstate opery to vôbec neublížilo.
+Jeho tvorba sa delí do troch období:
+Diela.
+Opery.
+Veľké opery:
+
+</doc>
+<doc id="5899" title="Spišská Stará Ves" url="https://sk.wikipedia.org/wiki?curid=5899">
+Spišská Stará Ves
+
+Spišská Stará Ves (, , ) je mesto na severe Spiša, je centrom oblasti nazývanej Zamagurie. Je tretím najmenším mestom na Slovensku.
+Geografia.
+Mesto leží medzi Spišskou Magurou a hraničnou riekou Dunajec. Po západnej strane sa vinie hranica s Poľskom. Na východnej strane je národný park Pieniny. Mesto je centrom celého Zamaguria, ktoré pozostáva z 19 katastrálnych území.
+Mestské časti.
+Spišská Stará Ves má dve časti:
+V Lysej nad Dunajcom je hraničný priechod s Poľskom, ale bez hraničnej kontroly, lebo od 21. decembra 2007 je Slovensko a Poľsko súčasťou Schengenského priestoru. Nachádza sa tu len pár domov. Pôvodne obec vznikla ako majer Červeného Kláštora. Samostatnou obcou sa stala až v 19. storočí po dosídlení nemeckými kolonistami (nemecký názov: "Kahlenberg" - "Lysá hora" v nárečí "Golembarg").
+Dejiny.
+Prvá písomná zmienka o meste je z roku 1309 (latinský názov: "Antiqua Villa"). Mesto pravdepodobne existovalo už pred tatárskym vpádom v 13. storočí. V 14. storočí bola za kolonizačnej činnosti šľachticov z Brezovice dosídlená. V r. 1337 sa dostala do zemepánskej závislosti Červeného Kláštora a lechnických kartuziánov. Ich nástupcom mesto patrilo až do 19. storočia.
+V histórii sa tu niekoľkokrát stretli uhorskí a poľskí králi na mierových rokovaniach. V r. 1423 sa tu zišiel uhorský kráľ Žigmund a poľský kráľ Vladislav, r. 1474 uhorský kráľ Matej Korvín a Kazimír Jagelovský.
+Mesto ležalo na významnej obchodnej ceste, konali sa tu pravidelné utorkové jarmoky, jej obyvatelia boli oslobodení od platenia cla a mýta. Vzhľadom na to, získala obec r. 1399 výsady zemepanského mesta s právom dovážať, skladovať a vyvážať pivo, víno a iné nápoje. Neskôr, ešte ako súčasť Uhorska, sa stala centrom okresu.
+V 15. storočí bola sužovaná husitmi, epidémiami a hladomormi, v 16. a 17. storočí zase bojmi medzi reformáciou a protireformáciou. Spišská Stará Ves upadla po roku 1920, kedy celá západná časť vtedajšieho okresu pripadla Poľsku (14 obcí). Okresom zostala až do roku 1960, kedy bola včlenená do okresu Poprad a od r. 1997 Kežmarok.
+Dnešný tvar mesta sa sformoval po silnom požiari roku 1878.
+Obyvateľstvo.
+S počtom obyvateľov 2228 (r. 2011) je tretím najmenším slovenským mestom. Po roku 1989 sa stáva centrom turistického ruchu v Zamagurí. 
+Nezamestnanosť.
+Spišská Stará Ves sa nachádza v okrese Kežmarok, ktorý patrí medzi najmenej rozvinuté okresy SR. V roku 2014 dosahovala v okrese miera evidovanej nezamestnanosti hodnotu 25,59 % a v meste Spišská Stará Ves sa nezamestnanosť pohybovala na úrovni 16,5 %. Ľudia zvyknú za prácou dochádzať do okolitých miest za Spišskou Magurou, do zahraničia alebo vykonávajú podnikateľskú činnosť. 
+Kultúra a zaujímavosti.
+Mestské kultúrne stredisko.
+V centre mesta je Mestské kultúrne stredisko (MsKS), kde sa konajú kultúrne podujatia. V budove sa nachádza aj kino.
+Kostol.
+V centre mestečka stojí gotický rímskokatolícky Kostol Nanebovzatia Panny Márie zo 14. storočia s presbytériom zo 14. storočia a hlavným oltárom z r. 1765 a tri prícestné kaplnky (Najsvätejšej Trojice, Premenenia Pána a sv. Šebastiána, všetky z 18. storočia). V kostole sa nachádza prekrásna krstiteľnica z červeného mramoru, ozdobená reliéfom sv. Juraja. Kostol s vežou svojím tvarom pripomína pevnosť.
+Rybníky.
+Medzi Spišskou Starou Vsou a Lysou nad Dunajcom sa nachádzajú malé rybníčky, hneď pri Dunajci, vhodné na prechádzky a oddych.
+Pltníctvo na Dunajci v Pieninách.
+Zaujímavou atrakciou je splav Dunajca na tradičných goralských drevených pltiach. Začiatok vyhliadkovej plavby je v Spišskej Starej Vsi po výstupište v Lesnici v dĺžke 14 km. Splav je dopĺňaný výkladom o histórii kraja a jednotlivých útvarov v prielome Dunajca, a tiež goralskou muzikou. Pltnícka sezóna sa začína 1. mája a končí 30. októbra.
+Prechádzky.
+Určite zaujímavou je prechádzka od budovy colnice popri cintoríne po starej poľnej ceste pozdĺž hranice s Poľskom na "Ševčíkovu samotu". Je to komplex drevených hospodárskych budov a usadlosť obklopená lesmi, ležiaca hneď pri hranici s Poľskom. Na okolitých kopcoch sa v lete pasú ovce, treba si dávať pozor pred napadnutím psami, ktoré sa tam niekedy pohybujú nekontrolované pastiermi.
+Šport.
+Pôsobí tu futbalový klub TJ Dunajec Spišská Stará Ves.
+Ubytovanie.
+Ubytovať sa je možné v hoteli Eland a v penziónoch.
+
+</doc>
+<doc id="5983" title="Francúzsky frank" url="https://sk.wikipedia.org/wiki?curid=5983">
+Francúzsky frank
+
+Francúzsky frank (skratka F alebo FRF) bola mena (presnejšie v dejinách rad rôznych mien) používaná vo Francúzsku v rokoch 1360 až 2002. 1. januára 2002 bola nahradená eurom.
+Dejiny.
+Frank prvýkrát zaviedol kráľ Ján II. Dobrý v roku 1360. Názov meny je odvodený od latinského nápisu na minciach "Johannes Dei Gratia Francorum Rex", t. j. „Ján, z milosti Božej kráľ Frankov“; jeho hodnota bola stanovená na 1 libru tournois.
+Po nástupe generála de Gaulla do prezidentskej funkcie v roku 1958 sa pristúpilo k ekonomickej reforme, ktorej súčasťou bolo vytvorenie "tvrdého franku". 1. januára 1960 bol daný do obehu "nový frank" a jeho hodnota bola 100 "starých" frankov. Od roku 1963 bol tento nový frank nazývaný jednoducho frank.
+Kurz franku bol od 1. januára 1999 pevne viazaný na euro v pomere 1 EUR = 6.55957 FRF. Bankovky a mince prestali oficiálne platiť pre hotovostné platby 17. februára 2002.
+Mince: 5, 10, 20, 50 centimov, 1, 2, 5, 10, 20 frankov
+Bankovky: 50, 100, 200, 500 frankov
+
+</doc>
+<doc id="5991" title="Rakúsky šiling" url="https://sk.wikipedia.org/wiki?curid=5991">
+Rakúsky šiling
+
+Rakúsky šiling bola od roku 1924 do roku 1999 mena používaná v Rakúsku pred zavedením eura. Od pripojenia Rakúska k Nemeckej ríši bola menou v Rakúsku ríšska marka. Šiling sa delil na 100 grošov. 
+Šiling prvej republiky (1925-1938).
+Rakúsky šiling, zavedený menovou reformou z 1. marca 1925 nahradil dovtedajšiu, infláciou po Prvej svetovej vojne znehodnotenú, korunu. Mince boli vyrazené v hodnotách 1, 2, 5, 10, 20, 50 grošov, 1, 2, 5, 10, 20, 50 šilingov a bankovky 20, 50, 100, 500, 1000 a 5000 šilingov. 
+Po anšluse Rakúska Nemeckou ríšou bol šiling nahradený ríšskou Markou s nevýhodným kurzom 1 RM=1,50 S. 
+Šiling druhej republiky (1945-1999).
+Po obnovení republiky po vojne boli zavedené mince v hodnote 1, 2, 5, 10, 20, 50 grošov, 1, 2, 5, 10 šilingov a tiež menej používané 20 a 50 šilingy. Šiling pretrval až do zavedenia eura, keď bol kurz šilingu k euru stanovený na 1S=0,07267€ t.j. 1€ = 13,76S.
+
+</doc>
+<doc id="5993" title="Maďarský forint" url="https://sk.wikipedia.org/wiki?curid=5993">
+Maďarský forint
+
+Maďarský forint je mena Maďarska. Jeho ISO 4217 kód je HUF, v Maďarsku sa obvykle používa skratka Ft. Jeden forint sa skladá zo sto "fillérov". Keďže reálna hodnota fillérov je veľmi nízka, (najnižšia používaná minca je 5 forintov), neexistujú žiadne fillérové mince. 
+Názov "forint" je odvodený z mena talianskeho mesta Florencia, kde sa v 13. storočí razili mince s názvom "fiorino d'oro".
+Vznik a vývoj.
+Meny v Maďarsku pred zavedením forintu sa volali (maďarská) koruna (19181927) a potom maďarské pengő (19271946).
+Do obehu bol forint zavedený 1. augusta 1946, teda po druhej svetovej vojne, keď hyperinflácia znehodnotila predošlú menu s názvom pengő. Forinty zaviedla nová komunistická vláda. Výmena starej meny na novú bola realizovaná v pomere 1 forint : 4×1029 pengő. V 60. a 70. rokoch bola hodnota forintu pomerne stabilná, v 80. rokoch a po páde socializmu sa situácia zmenila. Inflácia vzrástla až na 35 % ročne, čiže hodnota meny rýchlo klesala.
+Maďarsko vstúpilo 1. mája 2004 do Európskej únie. Jedným zo záväzkov vyplývajúcich z pristúpenia k EU je, že vstupujúci štát po splnení všetkých podmienok zavedie namiesto svojej národnej meny spoločnú európsku menu euro. Maďarsko plánovalo euro zaviesť 1. januára 2010. Väčšina ekonomických štúdií ale predpokladá, že Maďarsko nebude v dohľadnej dobe schopné prijať euro.
+Mince.
+Súčasné mince majú nominálne hodnoty 5, 10, 20, 50, 100 a 200 forintov. 
+Na líci je štátny znak alebo ukážka domácej flóry a fauny, na rube je číslovka nominálnej hodnoty. 
+Mince v nominálnej hodnote 1 a 2 forinty boli 1. marca 2008 stiahnuté z obehu kvôli nízkej reálnej hodnote. 
+Pamätné mince.
+Pamätné mince sú od roku 1989 razené z bežných i drahých kovov. Vyskytli sa aj neobvyklé nominálne hodnoty, ako napríklad 75 forintov k 75. výročiu Maďarskej národnej banky, alebo 750 forintov k MS vo futbale. Niektoré pamätné mince majú neobvyklý tvar, ako napríklad štvorec (minca s hodnotou 500 forintov pripomínajúca šachový stroj Johanna Wolfganga Kempelena alebo Rubikovu kocku), obdĺžnik, ba existujú aj „polené“ pamätné mince. Každoročne sú vydávané aj klasické mince venované slávnym Maďarom. Od roku 1989 bolo vydaných viac než sto pamätných mincí.
+Bankovky.
+V súčasnosti sú v obehu bankovky s hodnotami 500, 1.000, 2.000, 5.000, 10.000 a 20.000 forintov. Vzory bankoviek sa nezmenili od ich uvedenia 1. januára 1993. Medzi platné bankovky patria aj tri pamätné bankovky. špeciálne vydanie 2.000 forintovej bankovky z 20. augusta 2000, ktorá bola emitovaná pri príležitosti milénia, avšak bežne v obehu sa vyskytuje len zriedkavo. 
+Bankovka s hodnotou 200 forintov bola 16. novembra 2009 stiahnutá z obehu.
+Na všetkých bankovkách sú na lícnej strane portréty významných Maďarov, na rube je miesto, nejako späté s vyobrazenou osobnosťou. 
+Pamätné bankovky.
+Maďarská národná banka (MNB) emitovala aj tri pamätné bankovky. Ide o:
+
+</doc>
+<doc id="5995" title="Bánovce nad Bebravou" url="https://sk.wikipedia.org/wiki?curid=5995">
+Bánovce nad Bebravou
+
+Bánovce nad Bebravou sú slovenské okresné mesto v Trenčianskom kraji.
+Polohopis.
+Mesto sa nachádza v Bánovskej pahorkatine v severnej časti Podunajskej pahorkatiny. Severne od mesta sa krajina mení a nad rovinu vystupujú Strážovské vrchy, západne sa dvíha Považský Inovec. Na území mesta rieka Bebrava priberá Radišu a Dubničku. 
+Širším centrom vedie cesta I/9 (TrenčínNováky), pre tranzit je južne od mesta vybudovaný obchvat, ktorý bude súčasťou rýchlostnej cesty R2. Juhovýchodným okrajom vedie železničná trať Trenčín – Chynorany. Mesto leží juhovýchodne od Trenčína, západne od Prievidze a severne od Topoľčian.
+Dejiny.
+Prvá písomná zmienka o Bánovciach je z roku 1232. Už v roku 1376 boli Bánovce povýšené na slobodné kráľovské mesto. História mesta je spojená s veľkou husitskou výpravou v rokoch 14311433 a pustošením Turkami v roku 1633. 
+V stredoveku boli významným centrom remeselnej výroby ako je obuvníctvo, stolárstvo, súkenníctvo, kováčstvo, mäsiarstvo, tkáčstvo, krajčírstvo. Začiatkom 17. storočia tu bola založená škola pre poskytovanie základného vzdelania. 
+Aj v ďalších rokoch sa mesto rozvíjalo, budovalo a dosiahlo prostredníctvom svojich obyvateľov úspechy v rôznych oblastiach výrobných odvetví, v kultúre, v školstve a vzdelávaní, v športe a v cirkevnom živote.
+Hospodárstvo.
+V meste Bánovce nad Bebravou sídlia viaceré firmy ako napríklad potravinárska spoločnosť zameraná na mliečne výrobky Milsy alebo nemecká obuvnícka výrobná spoločnosť Gabor, ďalej textilné závody Eterna a Zornica a nemecká firma Hella. 
+
+</doc>
+<doc id="6048" title="Most SNP" url="https://sk.wikipedia.org/wiki?curid=6048">
+Most SNP
+
+Most SNP (od roku 1993 do 28. augusta 2012 "Nový most") je jednopylónový, oceľový, cestný, zavesený most vejárového dizajnu cez Dunaj v Bratislave. Je to jediný most v Bratislave, ktorý nemá žiadny pilier v prúde rieky Dunaj, čím je to bratislavský most s najväčším hlavným rozpätím a tým vo všeobecnosti klasifikovaný ako najväčší v Bratislave. V roku 2001 bol vyhlásený za stavbu storočia na Slovensku v kategórii mostné stavby. Most patrí do asociácie World Federation of Great Towers, pričom je to 28. a najnižšia stavba tejto asociácie a súčasne jediná stavba tejto asociácie, ktorá slúži ako pylón mosta. Od 16. mája 2018 je most národná kultúrna pamiatka.
+Dejiny.
+V medzinárodnej architektonickej súťaži zvíťazil iný návrh, no z ekonomických dôvodov sa rozhodlo pre návrh, ktorý skončil až na štvrtom mieste. Postavili ho v rokoch 1967 až 1972 spoločnosti Doprastav Bratislava a Hutní montáže Ostrava podľa projektu inžinierov Arpáda Tesára a Jozefa Zvaru a architektov Jozefa Lacka, Ladislava Kušníra a Ivana Slameňa. Do užívania bol daný 26. augusta 1972. V čase projektovania bol zaveseným mostom s najväčším rozpätím poľa na svete, kým ho však dokončili zaradil sa na štvrté miesto.
+Z dôvodu jeho výstavby bola zbúraná značná časť bratislavského Podhradia vrátane historicky hodnotných častí Vydrice a synagógy v maurskom štýle. Významne však urýchlil dopravu a tým aj rozvoj petržalského sídliska. 
+V rokoch 2005 a 2006 sa z dôvodu veľkého znečistenia na Moste SNP urobil ochranný náter na lávkach pre peších a cyklistov. V roku 2006 sa natreli ochranným náterom aj obidva pylóny.
+Parametre.
+Most je plechový a zavesený na jednom pylóne vysokom 84,6 m. Celková dĺžka: 430,8 m, hlavná dĺžka medzi piliermi 74,80 m - 303 m - 54 m, šírka 21 m, hmotnosť 7 537 t, celková výška od základov po vrchol 95 m, priemer kupoly 32 m. Merania kladú dôraz aj na výšku od vody ku časti mosta určenej pre chodcov, ktorá bola nameraná pri rýchlosti vetra 24 km/h a pri vodnom stave 321cm, 17,3 m s odchýlkou vo veľkosti jedného kameňa. I Na moste sú dve dvojprúdové vozovky pre autá, pod nimi je z každej strany mosta chodník pre peších a cyklistov.
+Nový most v kategórii zavesených mostov obsadil po svojom otvorení v roku 1972 hneď štvrté miesto na svete. V užšej kategórii zavesených mostov, teda mosty iba s jedným pylónom a iba s jednou závesnou rovinou, mu svetové prvenstvo zostalo dodnes. Na treťom mieste je medzi mostami so šikmým pylónom.
+Zaujímavosti.
+Zvláštnou atrakciou je reštaurácia na hlavici pylónu vo výške 85 m (po rekonštrukcii od roku 2005 s názvom "UFO watch.taste.groove.", kedysi pod názvom "Bystrica"). Je spojená s vyhliadkovou plošinou, z ktorej je za dobrého počasia výhľad až do vzdialenosti 100 km. Vedie k nej výťah vo východnom pilieri mosta, zatiaľ čo v západnom pilieri je umiestnené núdzové schodisko so 430 schodmi. UFO je považované za jednu z dominánt mesta a vyhľadávaným cieľom domácich i zahraničných turistov, pričom ročne ho navštívi 200-tisíc návštevníkov.
+V moste sa nachádza vodovodné potrubie na zásobovanie Starého Mesta z Petržalky.
+Osvetlenie mosta bolo pôvodne riešené 3 000 svietidlami na držadlách zábradlí, v roku 1998 bolo nahradené stožiarovým osvetlením s 52 špeciálnymi svietidlami.
+Most SNP slúžil ako predloha pre zavesený most Vanšu tilts v lotyšskom meste Riga na rieke Daugava. Podobnú konštrukciu, avšak symetrickú, má aj menší Hainburský dunajský most.
+
+</doc>
+<doc id="6078" title="Most Lafranconi" url="https://sk.wikipedia.org/wiki?curid=6078">
+Most Lafranconi
+
+Most Lafranconi (neoficiálne: "Most Lanfranconi"; do roku 1992: "Most mládeže", "most Mládeže") je prvý betónový most, ktorý preklenul Dunaj v Bratislave. Je to diaľničný most. Stavali ho v rokoch 19851991. Slávnostne ho otvorili v roku 1992. Denne po ňom môže prejsť 41 000 vozidiel.
+Charakteristika.
+Projekt vzišiel zo siedmich súťažných návrhov v roku 1976. Jeho prioritou bola esteticky čistá stavba nezasahujúca svojím tvarom a konštrukciou do rázu okolitej krajiny, nezabraňujúca vo výhľadoch od mesta a nachádzajúca sa v harmonickom súlade s už stojacim dominantným Mostom SNP.
+Most má sedem polí a celkovú dĺžku 761 m. Štvorpruhová vozovka je široká 30 metrov. Najväčšiu hrúbku má konštrukcia pri centrálnom pilieri, kde dosahuje 11 metrov. Do okrajových častí sa postupne vejárovito zužuje až na hrúbku 2,7 metra. Pod vozovkou sa po obidvoch stranách nachádzajú lávky pre peších a cyklistov. V dutej konštrukcii vedie vodovodné potrubie aj plynovod.
+Názov.
+Pôvodne, t.j. počas výstavby, sa most volal "Most mládeže" (resp. podľa pravopisu platného do roku 1991 "most Mládeže").
+Napokon v roku 1992 most dostal meno "Most Lafranconi". 
+Meno Most Lafranconi vzniklo prevzatím mena študentského internátu Lafranconi resp. okolitej štvrte nazývanej Lafranconi na severnom brehu Dunaja pri moste. Tento internát resp. štvrť bol(a) pomenovaný (-ná) podľa tunajších pozemkov talianskeho architekta Eneu Graziosa Lanfranconiho (18501895), prípadne podľa jeho vily (Lanfranconiho vila), ktorá v tejto oblasti pôvodne stála a bola pre stavbu mosta asanovaná. Meno rodiny Lanfranconi sa síce prevažne uvádza v tvare Lanfranconi, ale občas sa uvádza aj v tvare Lafranconi (porov. napr. ); podľa niektorých názorov je tvar Lafranconi chyba. Pri pomenovaní internátu resp. štvrte sa každopádne používal a zaužíval len tvar Lafranconi, čiže tvar bez -n-.
+Niektoré texty uvádzajú meno mosta v podobe (alebo zastávajú názor, že by bolo vhodnejšie most nazývať v podobe) "Most Lanfranconi"; k oficiálnemu premenovaniu mosta do tejto podoby však nedošlo.
+V roku 2020 bola zastávka MHD pri moste premenovaná z Most Lafranconi na Most Lanfranconi.
+
+</doc>
+<doc id="6079" title="Prístavný most" url="https://sk.wikipedia.org/wiki?curid=6079">
+Prístavný most
+
+Prístavný most (pôvodne do roku 1993 "Most hrdinov Dukly") je dvojposchodový diaľnično-železničný most v Bratislave cez Dunaj v oblasti bratislavského dunajského nákladného prístavu. Je súčasťou diaľnice D1, pričom ním peážuje aj cesta I/61. Je dlhý 599,4 m. Nachádza sa na ňom aj chodník pre peších, cyklistický pruh, vodovodné, plynovodné a ďalšie vedenia. Výstavba prebiehala v rokoch 1977 – 1985, pričom železničná časť bola daná do prevádzky už v roku 1983. Generálnym projektantom bol štátny ústav DOPRAVOPROJEKT Bratislava a stavbu realizoval Doprastav, š.p.
+Diaľničnú časť mosta spravuje Národná diaľničná spoločnosť, železničnú časť Železnice Slovenskej republiky a lávky pre peších a cyklistov sú v správe Magistrátu hlavného mesta SR Bratislavy.
+Odôvodnenie stavby mosta.
+Nevyhovujúci stav Starého mosta na Šafárikovom námestí, ktorý slúžil cestnej a železničnej doprave, úrovňové prejazdy železnice s mestskými komunikáciami a v neposlednom rade plán výstavby diaľničného obchvatu Bratislavy viedli k presmerovaniu osobnej, nákladnej a taktiež železničnej dopravy cez diaľnično-železničný most do Petržalky, čím sa dosiahlo odbremenenie dopravy v centre mesta. Pôvodne bol navrhovaný na 50 000 vozidiel denne, no bežne ním prejde v priemere približne až 120.000 vozidiel každý deň (podľa údajov Národnej diaľničnej spoločnosti z roku 2013).
+
+</doc>
+<doc id="6088" title="Južný oceán" url="https://sk.wikipedia.org/wiki?curid=6088">
+Južný oceán
+
+Južný oceán (staršie: Južný ľadový oceán, Antarktický oceán; zastarano "Južné ľadové more/Južné Ľadové more") je tradičný a od roku 2000 podľa Medzinárodnej hydrografickej organizácie oficiálny názov oceánu obklopujúceho Antarktídu po 60 ° južnej šírky. Južný oceán je štvrtým najväčším oceánom. Jeho rozlohu môžeme porovnať približne s dvojnásobkom rozlohy Európy.
+Zástancovia jeho neexistencie označujú jeho časti ako južný Tichý, Indický a Atlantický oceán.
+Zahŕňa najmä tieto moria: Rossovo more, Amundsenovo more, Weddellovo more a Bellingshausenovo more.
+
+</doc>
+<doc id="6095" title="Paul Verlaine" url="https://sk.wikipedia.org/wiki?curid=6095">
+Paul Verlaine
+
+Paul Verlaine (* 30. marec 1844, Metz – † 8. január 1896, Paríž) bol francúzsky básnik, predstaviteľ symbolizmu.
+Životopis.
+Narodil sa v Metz, študoval v Paríži, neskôr sa stal úradníkom na radnici.
+Svoju prvú zbierku "Saturnské básne" napísal v období, ktoré sám označuje ako kritické, a v ktorom v sebe po prvýkrát objavil básnika. Prejavuje sa v nich typická citovosť. Uplatnili sa v nej poetické postupy parnasizmu i vplyv Charlesa Baudelaira. No práve v nej sa po prvý raz v sústredenej podobe objavujú básne vyvolávajúce zvukovú predstavu („melodické piesne“). Ide o jemné zvukové i vizuálne vyjadrenie silného citového a zmyslového zážitku z poznávania krajiny a obdivu k nej. Popri lyrických, krajinomalebných polohách sa tu uplatnili aj motívy lásky, smútku, túžby. 
+Citovosť sa ešte výraznejšie prejavuje v zbierke "Galantné slávnosti" inšpirovaná Watteauovými rokokovými obrazmi. 
+V roku 1870 sa oženil s Matilde Mautéovou a venoval jej ľúbostné básne "Dobrá pieseň". Po komúne 1871 sa spriatelil s Arthurom Rimbaudom. Ich priateľský vzťah postupne prerástol až do intímneho, sprevádzaného búrlivými scénami a žiarlivými výstupmi. 
+V roku 1872 sa rozvádza so svojou manželkou, ako jeden z bodov žiadosti o rozvod uviedla, že jej chcel Verlaine zapáliť vlasy a surovo ju udrel do tváre. V Bruseli na Rimbauda Verlaine po jednej z častých hádok opitý vystrelil, trafil ho do ruky, za čo ho odsúdili na dva roky väzenia. 
+Vrcholom jeho tvorby a zároveň jeho najmelodickejším dielom je zbierka "Romance bez slov". Táto zbierka znamená zásadný obrat k novým básnickým prostriedkom subjektívnej lyriky. Zbierka zahrňuje viac ako 20 básní rozdelených do štyroch oddielov:
+Verlaine na rozdiel od parnasistického kultu formy uplatňoval citovú bezprostrednosť a využitie hudobných prostriedkov verša, čím výrazne zasiahol do metrického a rýmového systému (asonancie).
+Potom, ako učil francúzštinu v Anglicku a na katolíckom kolégiu v Paríži sa pokúšal o vedenie farmy. Skrachoval a po roku 1883 upadol do takej biedy, že takmer umrel hladom. Jeho podlomenému zdraviu vôbec neprospieval alkohol, ktorý tak často pil a doslova žobrácke ubytovanie – malá izbička v Latinskej štvrti. Zomrel 8. januára 1896 v Paríži, pochovaný je na cintoríne "Batignolles".
+Povedal: "Opíjam sa, aby som si zachoval povesť".
+Film.
+V roku 1995 nakrútila Agnieszka Holland film s názvom "Úplné zatmenie" ("Total Eclipse") v hlavnej úlohe s Leonardom DiCaprio ako Rimbaudom a Davidom Thewlisom ako Verlainom.
+
+</doc>
+<doc id="6102" title="Prekliati básnici" url="https://sk.wikipedia.org/wiki?curid=6102">
+Prekliati básnici
+
+Prekliati básnici je voľne používané označenie pre niektorých spoločensky vykorenených básnikov vo Francúzsku v 2. polovici 19. storočia, ako aj (pôvodne) názov rovnomenného súboru básnických podobizní od Paula Verlaina.
+Dielo.
+Paul Verlaine vydal v roku 1884 a 1888 útlu knižočku "Prekliati básnici", vlastne súbor kritických esejí o francúzskych básnikoch, v tom čase nedocenených a takmer neznámych. Nazval ich prekliatymi vychádzajúc z romantickej koncepcie, že každého básnika, ktorý svojím dielom prevyšuje ostatných, stihne kliatba. Títo prekliati básnici sa vyčlenili zo spoločnosti, verili iba vlastnému snu a odmietali vyšliapané chodníčky poézie.Títo básnici vidia sami seba ako asociálne zjavy. Uvedomujú si, že svojím dielom urýchľujú rozpad už aj tak rozkolísanej a dezorganizovanej spoločnosti. 
+Kniha je venovaná:
+Jednu stať venuje aj vlastnej tvorbe, je uvedená pseudonymom „Chudák Lelian“, je to vlastne anagram jeho mena.
+
+</doc>
+<doc id="6138" title="Nad Tatrou sa blýska" url="https://sk.wikipedia.org/wiki?curid=6138">
+Nad Tatrou sa blýska
+
+Nad Tatrou sa blýska je hymnická pieseň od Janka Matúšku z roku 1844. Text napísal po tom, ako na Nový rok 1843 suspendovali Ľudovíta Štúra z funkcie námestníka evanjelického lýcea v Bratislave. Na protest proti tomu odišlo 22 študentov z Bratislavy a 13 ich prišlo do Levoče. Spievať ju odporučil na nápev ľudovej piesne "Kopala studienku". Prvý raz sa objavila anonymne roku 1851 v "Domovej pokladnici" pod názvom Dobrovoľnícka. Najstarší zápis piesne z roku 1844 sa nachádza v zápisníku Viliama Paulinyho-Tótha. Zapísaná je pod titulom Prešporskí Slováci, budúci Levočania (orig. "Prešporskí Slováci, budoucí Levočané"). Táto pôvodná verzia má 6 strof, známa je aj pod názvom Ponad Tatrou blýska.
+Prvé dve slohy piesne tvoria štátnu hymnu Slovenska.
+Text piesne.
+1. Sloha
+2. Sloha 
+3. Sloha
+4. Sloha
+Notový zápis.
+&lt;score vorbis="1" lang="lilypond"&gt;
+\version "2.14.2"
+\new Staff
+ \new Voice = "first" {
+ \voiceOne \relative c' {
+ \tempo 4 = 88
+ \key g \minor
+ \time 2/4
+ \set Staff.midiInstrument = "violin"
+ g'8\staccato^\f a\staccato bes4 bes bes8\staccato bes\staccato % Nad Tatrou sa blýska
+ a\staccato bes\staccato c\( bes\) a4 g % hromy divo bijú
+ \break
+ bes8\staccato c\staccato d4 d d8\staccato d8\staccato % Nad Tatrou sa blýska
+ c\staccato d\staccato es\( d\) c4 bes % hromy divo bijú
+ \break
+ \repeat volta 2 {
+ d8\staccato d\staccato d4 c c8\staccato c\staccato % Zastavme ich bratia
+ c\( d\) c4 bes bes8\staccato\&lt; bes\staccato\! \break % veď sa ony stratia
+ \alternative {
+ { a\staccato bes\staccato c bes a4 g } % Slováci ožijú
+ { a8-&gt; bes-&gt; c-&gt; bes-&gt; a4-^ g\fermata \bar "|." } % Slováci ožijú
+ \addlyrics {
+ Nad Tat- rou sa blýs- ka, hro- my di- vo bi- jú.
+ Nad Tat- rou sa blýs- ka, hro- my di- vo bi- jú.
+ Zas- tav- me ich bra- tia, veď sa o- ny stra- tia,
+ Slo- vá- ci o- ži- jú.
+ Slo- vá- ci o- ži- jú.
+ \\
+ \new Voice = "second" {
+ \voiceTwo \relative c' {
+ d8 c8 d4 g8 f es d c bes a bes d4 bes g'8 f bes4 bes8 a g f es d c bes f'4 bes, bes8 c d es f4 f8 es d e fis4 g g,8 bes c bes a g d'4 bes c8 bes a c d c bes4\fermata
+&lt;/score&gt;
+Referencie.
+Text štátnej hymny je uvedený v Prílohe č. 5 zákona č. 63/1993 Z.z.
+
+</doc>
+<doc id="6180" title="Zoznam štátov podľa hrubého domáceho produktu v prepočte na jedného obyvateľa v parite kúpnej sily" url="https://sk.wikipedia.org/wiki?curid=6180">
+Zoznam štátov podľa hrubého domáceho produktu v prepočte na jedného obyvateľa v parite kúpnej sily
+
+PPP, k Decembru 2019 zdroj: https://tradingeconomics.com/country-list/gdp-per-capita-ppp
+Tento článok obsahuje zoznam štátov a závislých území zoradených podľa hrubého domáceho produktu na jedného obyvateľa v parite kúpnej sily (pozri hrubý domáci produkt v prepočte na jedného obyvateľa a hrubý domáci produkt v parite kúpnej sily). Toto číslo je jediné ako-tak objektívne bežné meradlo relatívneho ekonomického bohatstva tej-ktorej krajiny. Pre porovnanie sú použité údaje z viacerých zdrojov.
+Všetky sumy sú v súčasných Geary-Khamis dolároch.
+Údaje z roku 2005.
+Každá tabuľka obsahuje priemer pre celý svet a pre Európsku úniu. Všetky údaje sú v medzinárodných dolároch.
+
+</doc>
+<doc id="6232" title="Srbsko" url="https://sk.wikipedia.org/wiki?curid=6232">
+Srbsko
+
+Srbsko (), dlhý tvar Srbská republika () je parlamentná republika, ktorá sa nachádza v strede Balkánskeho polostrova. Hlavným mestom je Belehrad, ktorý obýva okolo 1,75 milióna obyvateľov, významný dopravný uzol ležiaci na sútoku Sávy a Dunaja.
+Vzniku samostatného Srbska predchádzal v roku 1991 rozpad Juhoslávie a odčlenenie Čiernej Hory 3. júna 2006. Srbsko neuznáva nezávislosť Kosova a územie považuje za provinciu Srbska. V súčasnosti je Srbsko kandidátskou krajinou Európskej únie.
+Dejiny.
+Na území dnešného Srbska sa Slovania (Srbi) usadili počas 6. storočia. V tej dobe bolo územie pod silným vplyvom Východorímskej ríše, a tak sa tu uchytilo pravoslávie. V polovici 10. storočia vzniklo prvé kráľovstvo v Raške, ktorému vládol Časlav Klonimirović. Za vlády cára Štefana Dušana (1331 – 1355) bola väčšina Balkánu ovládaná Srbskom. 
+Po bitke na Kosovom poli v roku 1389 sa Srbsko postupne spolu s inými balkánskymi štátmi dostalo pod nadvládu Osmanskej ríše. Po početných povstaniach Srbsko v roku 1878 získalo samostatnosť (mesto Belehrad a okolie už v roku 1867). V roku 1912 sa Srbsko zúčastnilo prvej balkánskej vojny spolu s Čiernou Horou, Bulharskom a Gréckom proti Osmanskej ríši. Srbská 1. armáda pod vedením princa Alexandra zvíťazila nad tureckou armádou v bitke pri Kumanove a Srbsko dosiahlo rozšírenie svojho územia o väčšinu Kosova a časť Macedónie. 
+V roku 1914 v Sarajeve srbskí nacionalisti uskutočnili atentát na Františka Ferdinanda d'Este a po vypršaní ultimáta 28. júla Rakúsko-Uhorsko vyhlásilo Srbsku vojnu. Počas vojny bolo územie obsadené a srbská časť Macedónie bola pripojená k Bulharsku. Po skončení prvej svetovej vojny sa Srbsko stalo súčasťou Kráľovstva SHS. Počas 2. svetovej vojny bola v krátkom ťažení Osi Juhoslávia na jar 1941 porazená a Srbsko bolo okupované, časti územia boli pripojené k talianskemu protektorátu v Čiernej Hore, Albánsku, časť územia pripadla Maďarsku a Bulharsku, ktoré sa podieľali na útoku na Juhosláviu, časť územia bola súčasťou bábkového Chorvátska. Zvyšok územia bol pod nemeckou okupáciou. Na okupovanom území vznikol odboj, ktorý viedol Draža Mihailović (neskôr minister obrany exilovej vlády v Londýne). Ďalším centrom odboja sa stal komunistický odboj, ktorého vodcom bol Josip Broz Tito.
+Od roku 1945 bolo Srbsko súčasťou komunistickej Juhoslávie na čele s prezidentom Titom. Potom sa republika rozpadla. V roku 1992 utvorilo Srbsko spolu s Čiernou Horou federáciu – Juhoslovanskú zväzovú republiku. Neskôr krajina dostala nové meno – Srbsko a Čierna Hora. V roku 2006 vyhlásila Čierna Hora po tesnom referende nezávislosť (3. júna) a 5. júna Srbská republika prevzala nástupníctvo po Srbsku a Čiernej Hore.
+Geografia.
+Susedmi Srbska sú na východe Rumunsko a Bulharsko, na juhu Severné Macedónsko a Albánsko (resp. medzinárodne sporné Kosovo), na juhozápade Čierna Hora, na západe Bosna a Hercegovina a Chorvátsko a na severe Maďarsko.
+Severnú a centrálnu časť krajiny pokrývajú roviny Panónskej panvy, do východných regiónov zasahujú pohoria Karpaty a Stará planina, južnú a západnú časť Srbska pretínajú Dináre. 
+Zo severu na juhovýchod preteká štátom Dunaj, ktorý tu postupne priberá prítoky Tisa, Sáva (jej prítok Drina) a Velika Morava, vytvárajúce rozsiahle nížiny.
+Administratívne členenie.
+Srbsko sa na najvyššej úrovni delí na dva autonómne kraje (autonómne pokrajiny; po srbsky autonomna pokrajina) – Vojvodina a Kosovo a Metohija "(ktoré sa 17. februára 2008 vyhlásilo za zvrchovanú Kosovskú republiku)" – a zvyšné územie, pričom však toto zvyšné územie, tzv. Centrálne Srbsko, netvorí špeciálnu administratívnu jednotku. Na nižšej úrovni sa Srbsko delí na obvody (okresy; po srbsky okrug) a tie sa zas delia na obce (po srbsky opština).
+Obyvateľstvo.
+Náboženské zloženie obyvateľstva.
+Obyvateľstvo Srbska tvoria z náboženského hľadiska:
+Jazyky.
+Úradným jazykom je srbčina, vo Vojvodine aj maďarčina, slovenčina, rumunčina, chorvátčina a rusínčina.
+Kultúra.
+V minulosti bolo Srbsko hraničnou krajinou dôležitých ríš. Cez terajšie územie Srbska prechádzala hranica medzi Západorímskou ríšou a Východorímskou ríšou pozdĺž Dunaja, rovnako prechádzala hranica medzi Osmanskou ríšou a Rakúskom-Uhorskom. Všetko to zanechalo svoje stopy. Zatiaľ čo sever Srbska je orientovaný viac stredoeurópsky, na juhu je cítiť viac orient.
+Najväčší vplyv na srbskú kultúru mala Byzantská ríša. Dá sa to odpozorovať v náboženstve Srbov. Veľkú úlohu majú v srbskej kultúre srbské kláštory, z ktorých prevažná väčšina bola vybudovaná už v stredoveku.
+
+</doc>
+<doc id="6251" title="Zakarpatská oblasť" url="https://sk.wikipedia.org/wiki?curid=6251">
+Zakarpatská oblasť
+
+Zakarpatská oblasť je oblasť na západe Ukrajiny na území tzv. Podkarpatskej Rusi, ktorá sa stala súčasťou Ukrajiny až po 2. svetovej vojne. Administratívnym strediskom oblasti je Užhorod. Ďalšími dôležitými mestami sú Mukačevo a Čop, centrum dopravnej infraštruktúry. Oblasť leží v ukrajinskej časti Karpát a je dôležitou turistickou a dopravnou časťou Ukrajiny s množstvom lyžiarskych a kúpeľných stredísk.
+Dejiny.
+"Pozri: "Podkarpatská Rus
+Geografia.
+Administratívne územie Zakarpatskej oblasti sa rozkladá na približne (ako u nás kraj) v Karpatoch na západe Ukrajiny. Je to jediná ukrajinská oblasť, ktorá hraničí so štyrmi štátmi – Poľskom, Slovenskom, Maďarskom a Rumunskom. Na západe hraničí s Podkarpatským vojvodstvom v Poľsku, Prešovským a Košickým krajom na Slovensku, Boršodsko-abovsko-zemplínskou a Sabolčsko-satmársko-berežskou župou v Maďarsku, na juhu s rumunskými župami Satu Mare a Maramureș. Zo severu hraničí s ukrajinskou Ľvovskou oblasťou a na východe s Ivanofrankivskou oblasťou.
+V Zakarpatskej oblasti prevažujú pohoria a pahorkatiny s listnatými a ihličnatými lesmi a alpskými lúkami. Hory tvoria približne 80 % územia Zakarpatskej oblasti. Hory sa dvíhajú od juhu z Panónskej nížiny až k vrcholom Karpát na severe. Na východnej hranici oblasti sa nachádza najvyššia hora Ukrajiny Hoverla () v Čornohore. Najnižší bod oblasti, , leží pri obci Ruské Gejovce (Руські Геївці) v Užhorodskom okrese (rajóne).
+Najvýznamnejšou riekou je Tisa, ktorá pramení neďaleko Rachova a miestami tvorí hranicu s Rumunskom a Ukrajinou. Ďalšími dôležitými riekami sú Latorica, Uh, Boržava a Terebľa. Región leží v miernom podnebnom pásme s kontinentálnou klímou, s priemernými zrážkami 700 ročne a priemernými teplotami +21 °C v lete a –4 °C v zime.
+Mestá a obce.
+V Zakarpatskej oblasti je 11 miest (podľa počtu obyvateľov, v tisícoch: Užhorod 118, Mukačevo 82, Chust 40, Berehovo 27, Vynohradiv tiež známy ako Veľký Sevľuš 25, Svaľava 18, Rachov 17, Ťačiv 11, Iršava 10, Čop 9, Perečín alebo Perečany 7), 19 sídel mestského typu a (aspoň) 579 ďalších obcí.
+Demografia.
+Pri sčítaní v roku 2001 žilo v Zakarpatskej oblasti 1 254 614 obyvateľov. Odhad z roku 2004 hovorí o 1,2 milióne obyvateľov.
+Podľa oficiálnych ukrajinských čísel na území Zakarpatskej oblasti nežije ani jeden Rusín, napriek tomu, že v rokoch 1918 – 1939 tvorili na tomto území väčšinu.
+Etnickí Ukrajinci tvoria väčšinu populácie – 80,5 % –, Maďari sú najvýznamnejšou menšinou s 12,1 %. Ďalšími významnými menšinami sú Rumuni (2,6 %), Rusi (2,5 %), Rómovia (1,1 %), Slováci (0,5 %) a Nemci (0,3 %). Rusíni žijúci na Ukrajine sú v tejto krajine považovaní nie za samostatný národ, ale za etnickú skupinu ukrajinského národa. Podľa posledného sčítania sa za Rusínov (ako samostatný národ) považuje asi 10 000 obyvateľov, teda asi 0,8 % populácie.
+Kultúra a jazyk národností sa tu rešpektuje – okrem rusínskej národnosti, ktorá oficiálne neexistuje –, a tak sa tu nachádza i veľa národnostných spolkov či škôl (okrem rusínskych, keďže tam podľa ukrajinských údajov žiadni Rusíni nežijú). Dá sa tu dorozumieť aj po slovensky.
+Administratívne členenie.
+"Zakarpatská oblasť" sa člení na 13 rajónov (okresov):
+Štatistické údaje o slovenskej komunite.
+Počet Slovákov v jednotlivých okresoch, mestách a v obciach na Zakarpatskej Ukrajine (podľa odhadu Matice slovenskej na Zakarpatsku):
+
+</doc>
+<doc id="6260" title="Slovenčina" url="https://sk.wikipedia.org/wiki?curid=6260">
+Slovenčina
+
+Slovenčina patrí do skupiny západoslovanských jazykov (spolu s češtinou, poľštinou, hornou a dolnou lužickou srbčinou a kašubčinou).
+Po slovensky sa hovorí na Slovensku (5 miliónov ľudí) a ďalej v týchto krajinách ("uvedené sú počty zahraničných Slovákov odhadované krajinskými spolkami a zastupiteľskými úradmi) oficiálne údaje za rok 2000/2001":
+ešte Bulharsko, Francúzsko, Nemecko, Belgicko, Škandinávia, Taliansko, Švajčiarsko, Holandsko, Cyprus, Rusko, Izrael, JAR, Argentína, Brazília, Uruguaj, Austrália, Nový Zéland, Spojené kráľovstvo a v ďalších krajinách. Celkový odhadovaný počet osôb slovenského pôvodu v zahraničí roku 2001 je 2 016 000.
+Slovenčina ako úradný jazyk.
+Slovenčina je oficiálne úradným jazykom Slovenska, Vojvodiny a od 1. mája 2004 jedným z jazykov Európskej únie. Jazykový kód alebo po anglicky Language Code je sk príp. slk podľa ISO 639. Slovenčina je známa ako „esperanto“ slovanských jazykov, vníma sa ako najzrozumiteľnejšia aj pre používateľov iných slovanských jazykov.
+V súvislosti so širokou zrozumiteľnosťou slovenčiny umožňuje český právny poriadok používať slovenčinu, na rozdiel od iných menšinových jazykov, bez prekladateľa či tlmočníka v právnych a úradných úkonoch. Týka sa to mnohých aspektov spoločenského života na celom území Česka. Napríklad Správny poriadok (zákon č. 500/2004 Zb.) stanovuje: "V řízení se jedná a písemnosti se vyhotovují v českém jazyce. Účastníci řízení mohou jednat a písemnosti mohou být předkládány i v jazyce slovenském" (§16, odsek 1).
+Počet slovenských slov fungujúcich alebo aspoň raz použitých v písaných textoch súčasnej slovenčiny nachádzajúcich sa v Slovenskom národnom korpuse môžeme odhadovať na viac ako 3 milióny (podľa jednotlivých tvarov) alebo približne 2 milióny (podľa počtu základných tvarov, v ktorých sú obsiahnuté všetky ich tvary nachádzajúce sa v textoch korpusu).
+Kodifikačné príručky.
+Kodifikačné príručky určujú, ktoré slová sa v slovenčine považujú za spisovné. Ide o 4 zákonom predpísané knihy.
+Nárečia.
+Slovenské nárečia sa navzájom značne rôznia a delia sa na 3 skupiny:
+Abeceda.
+Slovenčina používa abecedu zloženú z modifikovaných latinských písmen. Modifikácie spočívajú v používaní diakritických znamienok: dĺžňa, mäkčeňa, dvojbodky a vokáňa. Na označenie jednej hlásky sa zvyčajne používa jedno písmeno.
+Malá slovenská abeceda vo svojom poradí:
+Hláskoslovie.
+V slovenskom hláskosloví rozlišujeme:
+Spoluhlásky "q", "w" a "x" sa používajú len v slovách cudzieho pôvodu. Z historických dôvodov sa však v slovenských textoch (najmä vo vlastných menách) používajú aj české hlásky "ě", "ř", "ů" a nemecké hlásky "ö" a "ü".
+
+</doc>
+<doc id="6279" title="50 slovenských korún" url="https://sk.wikipedia.org/wiki?curid=6279">
+50 slovenských korún
+
+50 Sk je bankovka, ktorá platila na Slovensku od augusta roku 1993 do 16. januára roku 2009.
+Päťdesiatkorunáčka bola prvou bankovkou, ktorú vydala Národná banka Slovenska po vzniku samostatnej Slovenskej republiky. Do obehu bola uvedená v auguste 1993.
+Lícna strana.
+Námet lícnej strany bankovky bol venovaný prvým slovanským vierozvestom sv. Cyrilovi a sv. Metodovi.
+Rubová strana.
+Na rubovej strane bankovky je motív zobrazujúci dve ruky, medzi ktorými je prvých sedem písmen staroslovienskej abecedy hlaholiky ako symbol daru svätcov starým Slovanom. Zrkadlovo obrátená silueta stredovekého kostolíka z Dražoviec (okres Nitra) je symbolom raného kresťanstva na území Slovenska.
+
+</doc>
+<doc id="6286" title="20 slovenských korún" url="https://sk.wikipedia.org/wiki?curid=6286">
+20 slovenských korún
+
+20 Sk je bankovka, ktorá platila na Slovensku od roku 1993 do 16. januára roku 2009.
+Lícna strana.
+Na lícnej strane bankovky je portrét prvého známeho slovenského vládcu, kniežaťa Pribinu, ktorý sídlil v Nitre do roku 833.
+Rubová strana.
+Na rubovej strane bankovky je zobrazený Nitriansky hrad - svedok bohatej minulosti mesta Nitry, ktorá bola až do 11. storočia strediskom významného politického útvaru - kniežatstva. Týmto motívom sa viacnásobne prelína časť koráľkového náhrdelníka z 9. storočia s bronzovým príveskom v tvare mesiaca, ktorý pochádza z archeologického náleziska Nitra-Lupka.
+
+</doc>
+<doc id="6289" title="Dunajská Streda (okres)" url="https://sk.wikipedia.org/wiki?curid=6289">
+Dunajská Streda (okres)
+
+ Okres sa nachádza v juhozápadnej časti Slovenska. Nachádzajú sa v ňom 4 mestá a 63 obcí.
+Obyvateľstvo.
+Národnostné zloženie.
+Okres Dunajská Streda patrí k dvom okresom na Slovensku, kde majoritu tvorí maďarská národnosť. Slováci tvoria väčšinu v piatich obciach a relatívnu väčšinu v jednej zo 67 obcí (z toho 4 mestá). K slovenským obciam patria Bellova Ves (56,77 %), Blahová (53,09 %), Hviezdoslavov (68,03 %), Kvetoslavov (60,70 %) a Veľká Paka (56,20 %), relatívna väčšina Slovákov v obci Macov (40,51 %).
+Národnostné zloženie v roku 1851.
+V roku 1851 mal okres Dunajská Streda (vtedajšia Bratislavská župa) maďarskú väčšinu. Päť dnešných obcí neexistovalo, boli spojené s inými obcami alebo z týchto obcí neboli zozbierané údaje. Zo 62 obcí nemali Slováci väčšinu ani v jednej obci. Všetky obce boli maďarské, len jedna obec bola zmiešaná; nemecko-maďarská obec (Šamorín).
+Rómovia v okrese Dunajská Streda.
+Podľa posledného sčítania v roku 2011 sa prihlásilo k rómskej národnosti 1 853 obyvateľov okresu Dunajská Streda. K svojmu rómskemu pôvodu sa hlási 1/3 Rómov. Väčšia časť sa hlási k slovenskej a maďarskej národnosti. V Atlase rómskych komunít 2019 je uvedených 13 obcí s prítomnosťou rómskeho etnika, s celkovým počtom 5 755 rómskych obyvateľov.
+
+</doc>
+<doc id="6310" title="Galanta (okres)" url="https://sk.wikipedia.org/wiki?curid=6310">
+Galanta (okres)
+
+ Okres sa nachádza v juhozápadnej časti Slovenskej republiky.
+Najväčším mestom okresu je mesto Sereď, ktoré má 15 580 obyvateľov, druhým najväčším je okresné mesto Galanta, v ktorej žije 15 013 obyvateľov. V rámci Trnavského kraja hraničí s okresmi Hlohovec, Trnava a Dunajská Streda.
+Obyvateľstvo.
+Národnostné zloženie.
+Okres Galanta má slovenskú väčšinu s počtom 60,73 % celkového obyvateľstva. K významným menšinám patrí maďarská národnosť (33,45 %). Ďalšiu národnostnú skupinu obyvateľstva tvoria ostatní a obyvatelia s nezistenou národnosťou (5,82 %). Z 36 obcí v okrese Galanta tvoria Slováci väčšinu v 17 obciach, Maďari v 16 obciach a 3 obce sú zmiešané, v ktorých nemá väčšinu ani jedna národnosť.
+Národnostné zloženie v minulosti.
+V roku 1851 patril okres Galanta z väčšej časti do Bratislavskej župy. Z dnešných 36 obcí neexistovali (boli spojené s inou obcou alebo údaje chýbajú) 2 obce – Dolný Chotár a Vinohrady nad Váhom. Z 34 obcí bolo 7 slovenských obcí (napr. Abrahám, Hoste a Šoporňa); 1 nemecko-maďarská (Sládkovičovo); a 9 slovensko-maďarských obcí (napr. Topoľnica, Galanta a Váhovce).
+Náboženské zloženie.
+V okrese Galanta obyvatelia vyznávajú najmä rímskokatolícke náboženstvo (cca. 77 %). Ďalším významným náboženstvom je Evanjelická cirkev (cca. 6 %). Obyvatelia bez vyznania tvoria približne 13 %. Ostatné a nezistené náboženstvá tvoria vyše 4 %.
+
+</doc>
+<doc id="6317" title="Komárno (okres)" url="https://sk.wikipedia.org/wiki?curid=6317">
+Komárno (okres)
+
+ V okrese sa nachádzajú 4 mestá a 37 obcí.
+Poloha.
+Okres Komárno sa nachádza v južnej časti Nitrianskeho kraja. Rozprestiera sa na ploche 1100km2. Z juhu je ohraničený tokom Dunaja. 
+Dejiny.
+Súčasný okres vznikol po reorganizácii verejnej správy v 1960.
+Obyvatelia.
+Počet obyvateľov (2019) je 101 500.
+Náboženské zloženie.
+SODB 2001
+Národnostné zloženie v súčasnosti.
+Okres Komárno patrí k jediným z dvoch okresov na Slovensku, kde tvorí väčšinu maďarská národnosť. Tá v okrese tvorí 63,8 %. Slovenská menšina, ktorá tvorí 28,3 % obyvateľstva, tvorí väčšinu v 5 obciach zo 41 obcí (aj mestá). 
+Etnické zloženie obcí a miest okresu Komárno 
+Údaje: Sčítanie obyvateľov, domov a bytov 2011
+(pozn. "Uvedené percentuálne zastúpenie národnosti, ktorá aspoň v jednej obci dosiahla 1,0 % z celkového obyvateľstva)."
+Atlas rómskych komunít 
+Národnostné zloženie v minulosti.
+Okres Komárno (vtedy súčasť Komárňanskej župy) mal v roku 1851 maďarskú väčšinu. Ku okresu patrilo 32 obcí. 9 obcí v tej dobe neexistovalo, volali sa inak, boli spojené s inými obcami alebo neboli zadané údaje. Z 32 obcí tvorili maďari väčšinu v 29 obciach. 1 obec bola slovenská (Dulovce) a dve obce boli zmiešané; slovensko-maďarské obce (Marcelová a Hurbanovo).
+
+</doc>
+<doc id="6378" title="Zoznam vládcov Byzantskej ríše" url="https://sk.wikipedia.org/wiki?curid=6378">
+Zoznam vládcov Byzantskej ríše
+
+Toto je zoznam vládcov Byzantskej ríše
+"Poznámka:
+Začiatok Byzantskej ríše je sporný, pretože sama seba považovala za pokračovateľku Rímskej ríše (pozri Vznik Byzantskej ríše). Za „prvých“ byzantských cisárov sa považujú najčastejšie:
+Laskar(is)ovci (Laskaridovci, Laskaris).
+"V exile v Nikajskom cisárstve"
+Palaiologovci (Palaiologos/Paleologos).
+V roku 1453 turecký sultán Mehmed II. dobyl Carihrad a nárokoval si titul caesar (cézar, t. j. cisár); jeho nasledovníci v tomto nároku pokračovali.
+
+</doc>
+<doc id="6397" title="Žiar nad Hronom (okres)" url="https://sk.wikipedia.org/wiki?curid=6397">
+Žiar nad Hronom (okres)
+
+ Okres sa nachádza v regióne Tekov. Do roku 1996 patrili pod okres aj súčasné okresy Žarnovica a Banská Štiavnica.
+Administratívne členenie.
+Mestá.
+KremnicaŽiar nad Hronom
+Obce.
+Bartošova LehôtkaBzenicaDolná TrnávkaDolná VesDolná ŽdaňaHliník nad HronomHorná VesHorná ŽdaňaHronská DúbravaIhráčJanova LehotaJastrabáKopernicaKosorínKrahuleKremnické BaneKunešovLadomerská VieskaLehôtka pod BrehmiLovčaLovčica-TrubínLúčkyLutilaNevoľnéPitelováPrestavlkyProchotRepišteSklené TepliceSlaskáStará KremničkaTrnavá HoraVyhne
+
+</doc>
+<doc id="6450" title="Košice-okolie (okres)" url="https://sk.wikipedia.org/wiki?curid=6450">
+Košice-okolie (okres)
+
+ Sídlom okresu sú Košice, hoci geograficky nie sú súčasťou okresu a okres toto mesto obklopuje zo všetkých strán.
+Administratívne členenie.
+Mestá.
+MedzevMoldava nad Bodvou
+Obce.
+BačkovíkBaškaBelžaBeniakovceBidovceBlažiceBočiarBohdanovceBoliarovBudimírBukovecBuneticeBuzicaCesticeČakanovceČaňaČečejovceČižaticeDebraďDrienovecDružstevná pri HornádeĎurďošíkĎurkovDvorníky-VčeláreGečaGyňovHačavaHájHaniskaHerľanyHodkovceHosťovceHrašovíkHýľovChorvátyChrastnéJaníkJasovKalšaKecerovceKecerovský LipovecKechnecKokšov-BakšaKomárovceKostoľany nad HornádomKošická BeláKošická PoliankaKošické OľšanyKošický KlečenovKráľovceKysakMalá IdaMalá LodinaMilhosťMokranceMudrovceNižná HutkaNižná KamenicaNižná MyšľaNižný ČajNižný KlátovNižný LánecNová PolhoraNováčanyNový SalašObišovceOlšovanyOpátkaOpináPaňovcePederPerín-ChymPloskéPopročRákošRankovceRešicaRozhanovceRudníkRuskovSady nad TorysouSeňaSkárošSlančíkSlanecSlanská HutaSlanské Nové MestoSokoľSokoľanySvinicaŠemšaŠtósTrebejovTrsťanyTrstené pri HornádeTurňa nad BodvouTurnianska Nová VesVajkovceValalikyVeľká IdaVeľká LodinaVtáčkovceVyšná HutkaVyšná KamenicaVyšná MyšľaVyšný ČajVyšný KlátovVyšný MedzevZádielZlatá IdkaŽarnovŽdaňa
+Obyvateľstvo.
+Podľa sčítania obyvateľov v roku 2011 bolo zloženie obyvateľstva v okrese takéto:
+
+</doc>
+<doc id="6477" title="Janko Alexy" url="https://sk.wikipedia.org/wiki?curid=6477">
+Janko Alexy
+
+Janko Alexy, krstený Ján Pavol Alexy (* 25. január 1894, Liptovský Mikuláš – † 22. september 1970, Bratislava) bol slovenský spisovateľ, maliar a publicista. Bol mu udelený titul „národný umelec“.
+Životopis.
+Pochádzal z mnohodetnej rodiny sedlára. Vzdelanie získal v Liptovskom Mikuláši a na gymnáziu v Lučenci. Po ukončení štúdia pracoval ako praktikant v lekárni v Prievidzi u židovského lekárnika Bedricha (Fridricha) Straussa (Borského). Od roku 1919 pokračoval v štúdiu v Prahe na maliarskej akadémii, v roku 1920 absolvoval polročný študijný pobyt v Paríži. Po ukončení štúdia pracoval ako profesor kreslenia na gymnáziu v Bratislave a od roku 1927 sa venoval iba umeleckej činnosti. V roku 1930 sa usadil v Martine, neskôr v Piešťanoch a v roku 1937 sa vrátil do Bratislavy.
+Tvorba.
+Patrí k zakladateľským osobnostiam slovenskej výtvarnej moderny a bol organizátorom kultúrneho života. Jeho literárna tvorba kotví v osobných zážitkoch z detstva a mladosti. Príznačná je pre ňu improvizačná ľahkosť, láskavý humor s jemnou dávkou sebairónie, úprimnosť a citová spontánnosť. Nájdeme v nej viacero portrétov detských postavičiek a aj sám rozprávač podáva svoje príbehy z aspektu rojčivého chlapca, ktorého sny o svete krásy, lásky a dobra narážajú na tvrdé hrany reálneho života (Kôň, Grétka, Slúžky a iné). Poviedka Ondrejko patrí k umelecky prenikavejším obrazom sociálnych krívd páchaných na deťoch v medzivojnovom období minulého storočia a manifestuje autorov súcit s ponižovanými a trpiacimi. Tento súcit však neprerastá do sentimentality. Ondrejko aj v biede a smrteľnej chorobe sníva o veľkom ľudskom zážitku. A tak umeleckou výslednicou tejto štúdie detskej duše je gogoľovsko-čechovský smiech cez slzy.&lt;br&gt;
+Jeho rozsiahle dielo obsahuje okolo 1 300 olejov, pastelov, tempier a kresieb inšpirovaných ľudovou tvorbou, legendami a krajinou. V 50. rokoch vytváral kompozície pre architektúru a tapisérie. Neskôr sa vrátil k inšpiráciám z ľudovej tvorby. Výrazne sa zaslúžil o rekonštrukciu Bratislavského hradu.&lt;br&gt;
+Jeho literárna činnosť pre neho nebola prvoradá, no napriek tomu bola sústavná a nezanedbateľná – vydal vyše 20 kníh. Spolu s Gejzom Vámošom vydával literárno-umelecký časopis Svojeť, ktorý založili v roku 1922. Hlavnou črtou jeho prozaických diel je autobiografickosť, bezprostrednosť zážitkov z detstva i štúdií, no i postavy a atmosféra bratislavského umeleckého prostredia. Životný optimizmus svojich diel sa snažil podoprieť i zážitkami z ciest po Slovensku.
+
+</doc>
+<doc id="6628" title="Končistá (vrch vo Vysokých Tatrách)" url="https://sk.wikipedia.org/wiki?curid=6628">
+Končistá (vrch vo Vysokých Tatrách)
+
+Končistá (, , ) je najvyšší vrchol v južnom vedľajšom hrebeni Popradského Ľadového štítu vo Vysokých Tatrách. Meria ().
+Poloha.
+Končistá sa nachádza v bočnom hrebeni Vysokých Tatier, ktorý vychádza južným smerom z Popradského Ľadového štítu. Na východe hrebeň klesá do Batizovskej, na západe do Štôlskej doliny. Na hrebeni Končistej, ako sa podľa najvyššieho vrchu nazýva, leží Malá Končistá, Prostredná Končistá a Štôlská veža. Najvyšší z trojice vrcholov Končistej sa nazýva "Jármayho stôl". Je to bizarný balvan, ktorý je vidieť aj z Batizovskej doliny. Tvarom pripomína konskú hlavu alebo kováčsku nákovu. Poliaci ho nazývajú "Kowadło" aj "Koń Jármaya".
+Názov.
+Názov vystihuje podobu štítu pri pohľade z juhu. Končistá pôvodne nemala žiadne meno. Batizovský štít a Končistu podtatranskí obyvatelia volali "Hrebeň" i "Batizovským vrchom". V 60-tych rokoch 19. storočia najvyšší končiar hrebeňa dostal meno Končistá.
+Výstupy.
+Je veľmi ľahko dostupná. V turistických sprievodcoch sa o nej autori zmieňujú ako o najľahšie prístupnom štíte spomedzi hlavných štítov Vysokých Tatier. Pravdepodobne ju veľmi dávno poznali hľadači pokladov, pytliaci, zlatokopi. Horskí vodcovia pred prvou svetovou vojnou o nej hovorili s dešpektom, vraj sa dá na „ňu vyteperiť aj na zdochýnajúcom koni“. Vraveli to preto, lebo boli nespokojní s nízkou vodcovskou odmenou, ktorú vodcom predpisoval Spišskou župou stanovený cenník. Niektorí vodcovia, napríklad Ján Pastrnák i Ján Ruman Driečny tu mali pytliacke revíry. Pod "Jármayho stôl" v 19. storočí vystúpilo veľa turistov. Nikto však na jej vrchole, ktorý vyčnieval 7 metrov nad vrchol, nestál. Končistá tak zostávala nedobytným štítom. Viktor Lorenc v týždenníku Zipser Bote (Spišský posol) 24. augusta 1878 uverejnil správu, že jeho výstup na nákovu skončil neúspechom. Nevzdal sa. Časopis Zipser Bote v roku 1891 uverejnil správu o výstupe Ladislava Jármaya (bol kúpeľným lekárom v Starom Smokovci), ktorý na Končistú vystupoval s predsavzatím zdolať vrcholovú skalu, ale ako napísal „s ľútosťou doznať musíme, že najvyšší bod dosiahol dosiaľ len smelý bádateľ Vysokých Tatier pán inžinier Viktor Lorenc so svojim sprievodcom Rumanom“. Neuviedol však dátum výstupu. Jármay navrhol veľký balvan nazvať "Lorencovou skalou". Výbor Uhorského karpatského spolku s návrhom nesúhlasil, lebo Lorenc bol „nebezpečný pansláv“. Nákovu akoby natruc nazvali "Jármayho stôl". Viktor Lorenc (18431915) bol rodák z Kroměříža, pôsobil ako hlavný inžinier krompašských železiarní. Tatry navštevoval často. Traduje sa, že na Končistú vystúpil z Lúčneho sedla. Prvý zimný výstup na Končistú urobil 17. februára 1906 nemecký horolezec Alfred Martin. Výstup je dovolený len s horským vodcom. Končistá je častým cieľom turistov aj napriek tomu, že na ňu nevedie turistický chodník.
+
+</doc>
+<doc id="6632" title="Rysy (vrch)" url="https://sk.wikipedia.org/wiki?curid=6632">
+Rysy (vrch)
+
+Rysy () (, , ) sú jedným z najpopulárnejších vyhliadkových štítov hlavného hrebeňa Vysokých Tatier. Nachádzajú sa medzi Žabím sedlom (Žabím koňom) a Váhou (Ťažkým štítom) na slovensko-poľskej hranici.
+Charakteristika.
+Od východného vrcholu tvorí prvý hraničný bod medzi Slovenskom a Poľskom na hlavnom hrebeni a severozápadný vrchol je najvyšším bodom Poľska. Na sever vysiela dlhý vedľajší hrebeň medzi Dolinu Rybiego Potoku a Bielovodskú dolinu. Medzi Rysmi a najbližším západným susedom - Žabím koňom, leží Žabie sedlo. Od Ťažkého štítu na juhovýchode oddeľuje Rysy sedlo Váha a od Malých Rysov v bočnom, na sever vybiehajúcom hrebeni Sedielko pod Rysmi. Horolezecky najatraktívnejšia je 400 metrová východná stena.
+Rysy majú tri vrcholy:
+Severozápadný vrchol zároveň slúži, od roku 2000, ako hraničný peší prechod po červenej značke do Poľska. Otvorený je v čase letnej turistickej sezóny. Rysy (ich severozápadný vrchol) sú najvyšším bodom Poľska.
+Na úbočí Rysov sa v nadmorskej výške nachádza najvyššie položená horská chata v Tatrách i na Slovensku, Chata pod Rysmi.
+Na úpätí Rysov (na slovenskej strane) sa nachádzajú 3 malé karovo-morénové jazerá - Žabie plesá (Veľké, Malé a Vyšné), na poľskej strane ležia dve plesá: Czarny Staw pod Rysami a najväčšie tatranské pleso - Morskie Oko.
+Názov.
+Názov Rysy (zhodný v slovenčine aj v poľštine) pochádza z goralského "rysy", čo je pomenovanie pre čiary, ryhy či štrbiny, ktoré sú viditeľné pri pohľade zo severu na vrchol Rysov a tiež na severné steny Mengusovských štítov. Tieto žľaby sú často i v lete zasnežené a tak sa vynímajú na tmavom žulovom podloží skalných stien. Nemá teda nič spoločného s rovnomennou mačkovitou šelmou. Pred 1. svetovou vojnou ich dokonca propagovali pod názvom "uhorské/maďarské" alebo "tatranské Rigi" (podľa vrchu Rigi, čo je výrazný a turisticky obľúbený vrch vo Švajčiarsku), pre ich široký výhľad. Prvý turistický návštevník Eduard Blasy so svojimi priateľmi, ktorý vystúpil na vrchol Rysov v lete 1840, ho pomenoval Meeraugspitze. Napísal: „Vypína sa tesne nad Meerauge a patrí mu zrejme piate miesto vo výškovom poradí“.
+Prvovýstupy.
+Prvý známy letný výstup na Rysy uskutočnil v roku 1840 Eduard Blasy s priateľmi a so sprievodcom Jánom Rumanom-Driečnym starším, prvý zimný výstup uskutočnili Theodor Wundt a Jakub Horvay 10. apríla 1884. Prvou ženou bola v zime na Rysoch 17. februára 1905 budapeštianska horolezkyňa a lyžiarka Terézia Egenhofferová (18851940) s horským vodcom Jánom Franzom st.
+Známe výstupy.
+Roku 1899 navštívila Rysy poľsko-francúzska vedkyňa Marie Curiová (18671934) s manželom Pierrom a roku 1913 neskorší vodca ruskej revolúcie, Vladimir Iľjič Lenin, na ktorého počesť sa počas socializmu v Česko-Slovensku konali výstupy na Rysy. Dňa 18. augusta 1939 spáchal na Rysoch samovraždu zakopanský pedagóg, básnik, kritik Adam Prochal (18901939). Ťažko znášal politické napätie spojené s pripravovanou hitlerovskou agresiou do Poľska.
+V roku 1886 upravili chodník od Morského oka a na najťažších miestach namontovali reťaze. Dňa 5. júla 2012 sa z poľskej strany Rysov zrútila skalná lavína a na asi 200 metrovom úseku poškodila reťaze a chodník nad Czarnym Stawom.
+Deaf Rysy.
+Od roku 2015 v prvý októbrový víkend organizuje Deaflympijský výbor Slovenska športovo-spoločenské podujatie "Deaf Rysy". Na Štrbskom Plese je zraz a ubytovanie účastníkov, kde zároveň prebieha sprievodný program. Jeho súčasťou sú prednášky s projekciou krátkometrážnych filmov s tématikou zameranou na šport deaflympionikov a históriu športu nepočujúcich na Slovensku. Súčasťou podujatia je vyhlásenie najúspešnejšieho športovca (Deaflympionik roka). Vrcholom je samotný výstup na Rysy, ktorého trasa sa však pri nepriaznivom počasí (ako tomu bolo v roku 2017) môže upraviť a skrátiť.
+Prístup.
+Upozornenie.
+Rysy sú najvyšším tatranským vrcholom, na ktorý vedie turistický chodník. Pre turistov sú prístupné počas letnej turistickej sezóny. V čase od 1. novembra do 15. júna sú počas vysokohorskej uzávery (ochrana fauny a flóry) pre turistiku uzavreté.
+Zjednodušenie prístupu.
+V roku 2016 na najexponovanejších miestach, v závere turistického chodníka na Chatu pod Rysmi, boli umiestnené nové technické pomôcky, ktoré uľahčujú turistom i vysokohorským nosičom výstup na Chatu pod Rysmi.
+
+</doc>
+<doc id="6647" title="Hrubý štít" url="https://sk.wikipedia.org/wiki?curid=6647">
+Hrubý štít
+
+Hrubý štít (, (haličský) "Gruby" aj "Grenzberg", ) je uzlová elevácia v hlavnom hrebeni Vysokých Tatier na štátnej hranici s Poľskom. Na severovýchod vysiela dlhý bočný hrebeň, ktorý oddeľuje Dolinu Pięciu Stawów Polskych (Dolinu Piatich poľských plies) od Doliny Morskiego oka.
+Názov.
+Volá sa podľa rozložitej formy. Hrubý štít nazývali Poliaci "Grubym, Grubym Wierchom" alebo "Grubym Miedzianym Wierchom".
+Turizmus.
+Vrchol turisticky dostupný z Poľska:
+Tatranská panoráma z vrcholu.
+Zľava Miedziane, Belianske Tatry, trojuholníkový Kolový štít, dvojvrchol Ľadového a Malého Ľadového štítu, skupinka Lomnického štítu, Javorový štít, Svišťový štít, Divá veža, rozoklaný hrebeň Východná Vysoká – Bradavica. Pred ním sa v popredí presadia Malé Rysy, Rysy a Vysoká, potom celkom vpredu Veľký Mengusovský štít a Čubrina, za Piargovým hrebeňom rozložitý Kôprovský štít, za ním kúsok Štrbského štítu a časť hrebeňa Solísk, od Hrubého vrchu dlhý zubatý hrebeň Hrubô za ktorým vyčnieva kúsok Kriváňa. Za zelenými Liptovskými Kopami Západné Tatry, celkom vpravo Valentková a Svinica nad plesom Zadni Staw.
+
+</doc>
+<doc id="6715" title="Zemplínska župa (Uhorsko)" url="https://sk.wikipedia.org/wiki?curid=6715">
+Zemplínska župa (Uhorsko)
+
+Zemplínska župa resp. Zemplínska stolica resp. Zemplínsky komitát (iné názvy: Zemplín, v 13. a prvej polovici 14. storočia: Potocký komitát; lat. "comitatus Zempliniensis" alebo "Zemplinum", nem. "Komitat Semplin/Sempliner Gespanschaft" alebo "Semplin", maď. "Zemplén (vár)megye" alebo "Zemplén") bola župa resp. stolica resp. komitát v Uhorsku.
+V súčasnosti je Zemplín na Slovensku aj názov neformálneho a turistického regiónu na Slovensku, zodpovedajúceho pôvodnej župe v rozsahu územia Slovenska, často však vrátane územia Užskej župy, o ktoré bol Zemplín rozšírený v roku 1918. 
+Uhorský komitát/župa/stolica.
+Zemplínska župa na severe susedila s Poľskom, neskôr s Haličom - rakúskou provinciou, dnes súčasť Poľska a Ukrajiny, ďalej s Abovskou stolicou (neskôr Abovsko-turnianskou), Boršodskou, Sabolčskou, Šarišskou a Užskou župou. 
+Územím Zemplína pretekajú rieky Bodrog, Hornád, Laborec, Latorica, Ondava, Tisa, Topľa. Rozloha župy v roku 1910 bola 6269 km². 
+Centrum.
+Administratívnym centrom Zemplína bol Zemplínsky hrad. V 13. a prvej polovici 14. storočia aj Blatný Potok. V 14. storočí sa centrom stalo mesto Zemplín. V rokoch 14701490 zasadala sedria v Sečovciach. Od roku 1748 bolo centrom stolice/župy Nové Mesto pod Šiatrom ("Sátoraljaújhely") v súčasnom Maďarsku.
+Rody vládnucich županov.
+Počas stredoveku sa na poste hlavného župana striedali najmä príslušníci týchto rodov:
+Dejiny.
+Zemplínsky komitát vznikol ako jeden z prvých v Uhorsku. Súčasťou Uhorska (nie celé územie) sa možno stal okolo roku 1018 za panovania kráľa Štefana I.. Severné hranice Uhorska sa posúvali čoraz viac na sever, až kým na konci 12. storočia sa hranica medzi Poľskom a Uhorskom neustálila na hrebeni Karpát tak, ako ju poznáme dodnes. Popri Zemplínskom hrade bol významným centrom aj Blatný Potok (Sárospatak), samotný komitát bol v 13. a 14. storočí známy ako "Potocký komitát" ("comitatus de Potok"). Na juhu Zemplínskeho komitátu existoval "Serenčský komitát", ktorý splynul so Zemplínskym komitátom najneskôr koncom 14. storočia, no ešte koncom 16. storočia sa jeho územie rozlišovalo ako "Dolnozemplínska stolica". 
+V 13. storočí sa aj Zemplínsky komitát zmenil na zemiansku (šľachtickú) stolicu. 
+Počas tureckých výbojov v strednej Európe sa územie Zemplína nikdy nestalo súčasťou Osmanskej ríše.
+V roku 1622 (Mikulovský mier) sa stolica stala súčasťou Sedmohradského kniežatstva, no po smrti Gabriela Bethlena sa opäť vrátila Uhorsku. Roku 1645 opäť pripadla Sedmohradsku (Linecký mier), no po smrti Juraja I. Rákociho sa opäť stala súčasťou Uhorska.
+V roku 1918 (potvrdené Trianonskou zmluvou roku 1920) sa územie Zemplína rozdelilo medzi Česko-Slovensko a Maďarsko. Zemplínska župa sa na Slovensku spojila so slovenskou časťou Užskej župy. Súčasťou Užskej župy na Slovensku bol takmer celý okres Sobrance a východná polovica okresu Michalovce. V súčasnosti sa teda aj toto územie bývalej Užskej župy pokladá za súčasť Zemplína a označuje sa niekedy ako mikororegión Sobrance.
+Náboženské zloženie.
+Na severe a severovýchode prevažovalo gréckokatolícke obyvateľstvo, na juhu prevažovali kalvíni a v strednej časti župy rímskokatolíci. Severovýchodne od Trebišova a v okolí Vranova tvorili v niektorých obciach väčšinu evanjelici. Významnú menšinu tvorilo židovské obyvateľstvo. 
+Jazykové zloženie.
+Do 15. storočia žili na území stolice prevažne Slováci a Maďari, neskôr počas valašskej kolonizácie k nim pribudli Rusíni, obývajúci hlavne sever a severovýchod stolice. Výnimku tvorila iba rusínska obec Komlóska na juhu, neďaleko mesta Blatný Potok / "Sárospatak". Maďari obývali prevažne južnú časť župy, väčšinu tvorili v mestách Nové Mesto pod Šiatrom / "Sátoraljaújhely", Blatný Potok / "Sárospatak", Kráľovský Chlmec a Tokaj. Slováci obývali centrálnu časť župy. Väčšinu tvorili napríklad v Stropkove, Snine, Vranove, Humennom, Trebišove a Michalovciach. Nemci tvorili väčšinu v troch obciach, ležiacich na dnešnom území Maďarska: Rátka (nem. "Ratkau"), Károlyfalva (nem. "Karlsdorf") (dnes časť Sátoraljaújhely) a Hercegkút (v minulosti "Trauczonfalva (nem. Trautsendorf)"). 
+Okresy.
+Zemplínska stolica sa pôvodne delila na štyri slúžnovské okresy pomenované číslami (Prvý, Druhý, Tretí a Štvrtí slúžnovský okres) a menami slúžnych.
+Roku 1773 sa už okresy volali nasledovne:
+V roku 1910 sa Zemplínska župa delila na tieto okresy: 
+
+</doc>
+<doc id="6730" title="Balada" url="https://sk.wikipedia.org/wiki?curid=6730">
+Balada
+
+Balada je epický útvar ľudovej slovesnosti. Vyznačuje sa jednoduchým dejom. Dej je smutný, jednoduchý a zväčša sa končí tragicky. Hrdina balady obvykle zahynie alebo podstúpi iný krutý trest (tragika). Dej je zhustený, jazyk je jednoduchý a väčšinou býva rozprávaný formou piesne. Môže obsahovať aj lyrické a dramatické prvky. Lyrické vlastnosti textu dokazuje zvýšená subjektívnosť, ktorú zvýrazňujú opakovacie figúry, refrén a hyperbola.
+Pre svoj pôvod v ľudovej slovesnosti má mnohé spoločné znaky s ľudovou rozprávkou:
+Od rozprávky sa odlišuje:
+Balada sa šírila ústnym podaním, ľudia v rôznych krajoch si text obmieňali podľa vlastného vkusu a nálady. Tak vznikli obmeny na jeden motív - varianty.
+Najstaršia zbierka ľudových balád pochádza zo Škótska. K nám sa balady dostali ústnym podaním. Do dnešných čias sa zachovalo len niekoľko ľudových balád, ku ktorým poznáme aj nápev (napr. Kačička divoká).
+Koncom 18. storočia, ale najmä v 19. storočí začínajú vznikať umelé balady. Ich zdrojom boli ľudové balady, ale aj povesti a báje. Z povestí si autori vyberali smutné, tajomné, záhadné, ale aj realistické deje, ktoré potom spracovali ako balady.
+Romantickí básnici využívali baladu na vyjadrenie svojich romantických pocitov (lyrický moment).
+Poznáme balady:
+Použité literárne zdroje: Literatúra pre 5. ročník ZŠ, Teória literatúry a iné.
+
+</doc>
+<doc id="6749" title="Bájka" url="https://sk.wikipedia.org/wiki?curid=6749">
+Bájka
+
+Bájka je epický žáner, v ktorom zvieratá, rastliny alebo neživé predmety konajú alebo hovoria ako ľudia (tento jav sa nazýva antropomorfizácia alebo personifikácia). Vždy z nej vyplýva nejaké ponaučenie. Prvé bájky ústne prednášal Ezop v 6. storočí pred Kr.
+V bájke sa využívajú alegorické prvky, satira a irónia, cez ktoré autor humornou formou kritizuje správanie ľudí.
+Jednotlivé zvieratá v bájke získavajú ľudské vlastnosti, ktoré sa pre nich postupne stávajú typické (napr. líška je prefíkaná). V reálnom svete zvieratá nemusia byť nositeľmi týchto vlastností, ale ľudia im ich z nejakého dôvodu (napr. vizuálneho) prisúdili.
+Bájky boli pôvodne určené dospelým čitateľom (poslucháčom), v 19. a 20. storočí sa začali stále viac posúvať do detskej literatúry.
+Zaujímavé je, že útvary podobné bájkam sa vyskytujú aj u juhoamerických Indiánov alebo afrických domorodcov. Tieto bájky neboli navzájom ovplyvnené, no napriek tomu majú spoločné znaky".
+
+</doc>
+<doc id="6752" title="Lyrická báseň" url="https://sk.wikipedia.org/wiki?curid=6752">
+Lyrická báseň
+
+Lyrická báseň je druh básne, ktorá vyjadruje pocity, myšlienky a nálady autora. Nemožno prerozprávať jej obsah. Lyrika nemá dej (je to stav, na rozdiel od epiky, ktorá má dej), je to druh poézie vyslovujúcej subjektívne básnikovej pocity, jeho úvahy, myšlienky a nálady, uprednostňujúci monologické vyjadrenie v prvej osobe. Lyrika nezachytáva časovú následnosť udalostí, svoju tému rozvíja v časovo súbežných obrazoch. Lyrika väčšinou neobsahuje dej, hoci môže obsahovať niektoré epické prvky ako sú náznak deja, postava a prostredie. 
+Slovo "lyrika" je odvodené z gréckeho pomenovania veršovaného spevu sprevádzaného hrou na lýru (lyrika melé = lýrou sprevádzané verše).
+
+</doc>
+<doc id="6762" title="Hnúšťa" url="https://sk.wikipedia.org/wiki?curid=6762">
+Hnúšťa
+
+Hnúšťa (v minulosti "Hnúšťa-Likier", , ) je mesto na Slovensku nachádzajúce sa medzi Rimavskou Sobotou a Tisovcom.
+Polohopis.
+Leží v regióne Malohont, v podhorskej kotline strednej časti Slovenského rudohoria. Geomorfologicky sa nachádza v Rimavskom podolí, tvoriacom časť Revúckej vrchoviny. Na území mesta sa zlievajú vody Rimavy a Klenovskej Rimavy, ktoré vytvárajú doliny. Nimi vedú hlavné cesty (I/72 Rimavská Sobota – Brezno a II/526 Jelšava – Hnúšťa – Kokava nad Rimavicou) i železničná trať z Rimavskej Soboty do Brezna. Od Rimavskej Soboty leží severne, od Tisovca južne, od Kokavy na východ a od Jelšavy na západ.
+Obyvateľstvo.
+Etnické zloženie obyvateľstva
+a iní
+Náboženské zloženie obyvateľstva
+a iní
+Dejiny.
+Prvú písomnú zmienku mesto nemá doloženú, ale už v roku 1334 sa uvádza v zozname výberčíkov pápežskej dane. V roku 1811 začala naberať Hnúšťa na svojom význame. Vtedy bola založená spoločnosť "Rimavská Coalícia", ktorá začala využívať nerastné bohatstvo zeme. V roku 1881 bola založená "Rima-muránsko-šalgotarianská účastinná spoločnosť", ktorá v roku 1885 postavila v mestskej časti "Likier" prvú koksovú vysokú pec. V meste sa v tomto období vyrobilo najviac surového železa na Slovensku. V 20. storočí železiarstvo upadalo a mesto trpelo veľkou nezamestnanosťou. V roku 1923 železiareň zanikla a Dr. Blasberg v tom istom roku založil chemickú továreň "Slovenské lučobné závody". V meste má tradíciu aj ťažba a spracovanie magnezitu.
+Do roku 1960 bola sídlom okresu.
+26. novembra 2006 sa v SLZ (Slovenských lučobných závodoch) otvorila výroba káblových zväzkov do automobilov, známa pod názvom Sevon v tejto dobe YURA. V Hnúšti tým znova stúpla zamestnanosť.
+Mesto vzniklo roku 1960 zlúčením Hnúšte a Likiera a v minulosti tiež nieslo meno "Hnúšťa-Likier".
+Hospodárstvo.
+Zastúpený je priemysel banícky (Gemerská nerudná spoločnosť a.s. Hnúšťa) – ťažba a spracovanie mastenca, magnezitu, bentonitu a dolomitu. Výrobou káblových zväzkov sa zaoberá kórejská spoločnosť Yura corporation, s.r.o. v mestskom priemyselnom parku, kde pôsobí aj rakúsky výrobca elastónových mostových ložísk a mostových záverov.
+
+</doc>
+<doc id="6774" title="Robot" url="https://sk.wikipedia.org/wiki?curid=6774">
+Robot
+
+Robot je stroj pracujúci s určitou mierou samostatnosti, vykonávajúci určené úlohy, a to predpísaným spôsobom a pri rôznych mierach potreby interakcie s okolitým svetom a so zadávateľom: Robot je schopný svoje okolie vnímať pomocou senzorov, reagovať na neho, zasahovať do neho, prípadne si o ňom vytvárať vlastnú predstavu, model. Vnímaním sveta môže nielen spoznávať svet samotný, ale môže tiež vyhodnocovať svoj vplyv na neho a využívať tak spätnú väzbu. Robot je fyzickou realizáciou všeobecnejšieho pojmu agent.
+Etymológia.
+Slovo robota (práca) bolo známe už v 17.storočí, vo význame otrocká práca poddaných. Mierne pozmenene ho v roku 1921 prvýkrát vo význame stroj použil český spisovateľ Karel Čapek v dráme R.U.R. Slovo mu poradil jeho brat Josef Čapek, keď sa s ním Karel rozprával o tom, ako umelú bytosť pomenovať. Pôvodne zamýšľaný "labor" znel autorovi príliš "papierovo". Josef Čapek podľa bratovho svedectva navrhol slovo "robot" "so štetcom v ústach a maľoval ďalej ". Tak vzniklo jedno zo svetovo najznámejších slov českého pôvodu, všeobecne rozšírené najmä vďaka preniknutiu do angličtiny .
+V Čapkovom diele je slovo "robot" skloňované ako životné podstatné meno. Skratka RUR je označuje veľkými písmenami a nazýva v množnom čísle "Rozumoví Univerzálni Roboti." V češtine sa neskôr vyvinuli dva spôsoby skloňovanie podľa charakteru robota: Pre inteligentné alebo humanoidné roboty sa (obvykle vo vedecko-fantastickej literatúre ) spravidla používa životné skloňovanie"." Pre priemyselné a iné, človeku nepodobné roboty (napr. " Kuchynský robot ") sa používa skôr neživotné skloňovanie.
+Rozdeľovanie robotov.
+Podľa generácie na:
+Podľa ich schopnosti premiestňovať sa na:
+Ďalej tiež podľa:
+Podľa úlohy, vzhľadu, spôsobu vzniku, schopností a ďalších aspektov rozlišujeme tieto roboty:
+Termín robot sa používa tiež pre počítačové programy, ktorý za svojho majiteľa vykonáva opakované činnosti (pozri internetový robot).
+
+</doc>
+<doc id="6810" title="Wine" url="https://sk.wikipedia.org/wiki?curid=6810">
+Wine
+
+Wine (čo je rekurzívny akronym pre "WINE Is Not an Emulator") je open source projekt pre počítače s unix-like operačným systémom bežiacich na platforme x86 (napr. Linux, FreeBSD, Solaris-x86), ktorý umožňuje spustiť programy napísané pre Microsoft Windows 3.x/9X/ME/NT/2000/XP/Vista/7/8/8.1/10 na X Window System. Je to docielené vrstvou kompatibility, ktorá prekladá volania z Win32 API na Unixové ekvivalenty a implementuje alternatívny kód.
+Pomocou Wine je možné spúšťať binárne programy alebo kompilovať programy zo zdrojových kódov za použitia Wine knižníc.
+Vývoj.
+Projekt Wine začal v roku 1993 Bob Amstadt (bol pôvodným vodcom projektu) a Eric Youngdale. V tej dobe bol zameraný na Windows 3.x aplikácie (16-bitové). Časom sa presunulo hlavné zameranie na Win32 aplikácie.
+Projekt je časovo náročný a aj keď je väčšina Win32 funkcií zdokumentovaných, niektoré funkcie majú nedokumentované chyby, ktoré musia byť presne zduplikované pre správnu funkciu niektorých programov. Ďalším problémom sú formáty súborov a protokoly, pre ktoré často oficiálna dokumentácia od Microsoftu neexistuje.
+Wine možno použiť bez predchádzajúcej inštalácie Microsoft Windows, pretože má vlastné ekvivalenty DLL súborov. Keďže sú však niektoré knižnice ešte neúplné, alebo nie sú na 100 % funkčne zhodné s originálnymi, umožňuje Wine použiť originálne DLL súbory a databázu registra z Microsoft Windows, aby sa tak zlepšila kompatibilita s aplikáciami.
+Funkčnosť.
+Wine dokáže s použitím vstavaných alebo natívnych (čiže originálnych) programových knižníc rozbehnúť napr. Internet Explorer, Windows Media Player, Lotus Notes ale aj Microsoft Office. Pri konfigurácii pomôže skript z internetu (). Samozrejme nesmieme zabudnúť aj na hry ako The Sims, StarCraft a ďalšie.
+Iné verzie.
+K dispozícii sú aj komerčné variácie, ktoré ako pridanú hodnotu k open source projektu (čo nevylučuje jeho komerčné využitie) ponúkajú napríklad špeciálnu kompatibilitu s hrami, ktoré využívajú DirectX (program Cedega) alebo sú zamerané na podporu kancelárskych aplikácií (program CrossOver Office).
+Čo na to Microsoft.
+Microsoft sa na tému Wine nevydával oficiálne vyhlásenia. 16. februára 2005 Ivan Leo Puoti objavil, že program od Microsoftu, ktorý kontroluje legálnosť kópie Windows prehľadáva registre a hľadá konfiguračný kľúč SOFTWARE\Wine\Wine\Config pre Wine. Keď ho nájde, zablokuje sa možnosť aktualizácie všetkých komponetov (programov). Puoti napísal:
+
+</doc>
+<doc id="6815" title="Dudince" url="https://sk.wikipedia.org/wiki?curid=6815">
+Dudince
+
+Dudince sú mesto a kúpele v okrese Krupina v Banskobystrickom kraji. Podľa sčítania obyvateľstva v roku 2011 boli Dudince najmenším mestom na Slovensku podľa počtu obyvateľov.
+Mesto je už viac než 10 rokov pravidelným dejiskom medzinárodných cyklistických pretekov. Takisto sa tu každoročne konajú preteky rýchlej chôdze, tzv. Dudinská 50.
+Polohopis.
+Mesto sa nachádza na rozhraní Štiavnických vrchov, Krupinskej planiny a Podunajskej nížiny. Mestom preteká potok Štiavnica.
+Cez Dudince prechádza dopravná tepna I/66 a E77, v budúcnosti sa v blízkosti mesta bude nachádzať R3, ktorá odkloní najmä tranzitnú dopravu a tiež sa neďaleko bude nachádzať križovatka rýchlostných ciest R3 a R7. Dopravnú sieť dopĺňa aj železničná trať Zvolen – Čata.
+Dudince pozostávajú z troch častí: Staré Dudince, Nové Dudince a Merovce. "Staré Dudince" sú pôvodná obec, ktorá sa nachádza na pravom brehu potoka Štiavnica v blízkosti hlavnej cesty. "Nové Dudince" vznikli zastavaním priestoru medzi potokom Štiavnica a železničnou traťou.
+"Merovce" sú časť mesta Dudince, ktorá sa nachádza za železničnou traťou. V obci sa nachádza aj rímskokatolícky kostol Panny Márie Kráľovnej pokoja z roku 1994 a evanjelický kostol a. v. z roku 1996.
+Kúpele.
+Kúpele v Dudinciach liečia choroby srdcovo-cievneho systému a pohybového systému. Minerálna voda v kúpeľoch je hydrogenuhličitanovo-chloridová, sodno-vápenatá, uhličitá, sírna a mierne hypotonická. Jej teplota je 28°C.
+Okrem terajších kúpeľov sú v Dudinciach aj historické kúpele, nazývané aj Rímske kúpele - sú to „bazéniky“ vytesané do travertínu. Z jedného tzv. bazénu vyvierala voda, a z neho postupne kaskádovo pretekali do druhých. Bazénov je približne 32, spodné slúžili vojakom a horné slúžili podľa histórie veliteľom, neskôr sa používali ako konopné močidlá.
+
+</doc>
+<doc id="6818" title="Nimnica" url="https://sk.wikipedia.org/wiki?curid=6818">
+Nimnica
+
+Nimnica je obec v okrese Púchov. 
+Prírodné podmienky.
+Prírodné liečivé zdroje.
+V kúpeľoch Nimnica sa nachádzajú pramene alkalických kyseliek, ktorých teplota je 10-13°C, celková mineralizácia cca 5000 mg/ l. Minerálna voda obsahuje sodík, draslík, horčík, železo, vápnik, chlór, jód a voľný oxid uhličitý a vďaka nim má liečivé účinky. Voda sa využíva sa na pitnú a inhalačnú liečbu, ale aj na vaňové uhličité kúpele, ktoré prinášajú úľavu od bolesti a zlepšujú zdravotný stav pacientov.
+Kultúra a zaujímavosti.
+Kúpele.
+V Nimnici sa nachádzajú najmladšie slovenské kúpele, sú situované nad vodnou nádržou Nosice, medzi Púchovom a Považskou Bystricou. Kúpeľná lokalita pozostáva z liečebných domov rozmiestnených v kúpeľnom lesoparku. Liečebné domy sú situované na výbežku pohoria Javorníky zasahujúceho do vodnej nádrže Priehrada mládeže. V budove Balneoterapie je sústredené stravovanie, zdravotnícke služby a kongresová sála.
+
+</doc>
+<doc id="6822" title="Hliník nad Hronom" url="https://sk.wikipedia.org/wiki?curid=6822">
+Hliník nad Hronom
+
+Hliník nad Hronom je obec na strednom Slovensku v okrese Žiar nad Hronom.
+Polohopis.
+Starobylá dedinka Hliník nad Hronom sa nachádza v malebnom údolí rieky Hron, na jeho ľavom brehu, medzi Štiavnickými a Kremnickými vrchmi a pohorím Vtáčnika.
+Názov a erb.
+Pomenovanie "Hliník", v maďarskom jazyku nazývaný „Geletnek“ si obec vyslúžila v dávnoveku a to pre jej ílovitú a hlinitú pôdu celého chotára. Obec mala svoj vlastný erb už pred rokom 1637, kedy sa symbolom stal patrón kostola sv. Martin. Až neskôr, keď sa obec preslávila výrobou mlynských kameňov, sa v erbe objavuje mlynský kameň s kamenárskymi kladivkami.
+Dejiny.
+Prvá písomná zmienka o obci je v zakladacej listine beňadického opátstva z roku 1075. Obec bola súčasťou Tekovskej stolice.
+Prvý drevený kostol bol postavený pred rokom 1332 v románskom slohu. Neskôr v roku 1408 postavili druhý kostol v gotickom štýle, pričom ho požiare a vojny poškodzovali. V roku 1440 Ján Jiskra z Brandýsa dal postaviť opevnený hlinický kaštieľ s priestrannými pivnicami a podzemnými tajnými chodbami. V roku 1678 bol úplne zničený a o jeho obnovu sa v roku 1889 postaral banský erár a stal sa sídlom hlinickej lesnej správy.
+V polovici 15. storočia sa Hliník nad Hronom stal po udelení trhových výsad kráľom Matejom Korvínom dôležitým obchodným mestečkom. Roku 1494 obec získala mestské výsady. Obyvatelia obce sa zaoberali výrobou mlynských kameňov viac ako 600 rokov a koncom 18. storočia boli tak známe a žiadané, že sa prepravovali na pltiach a pečatili sa zvláštnym pečatidlom kráľovskej koruny Márie Terézie. Venovali sa tiež povozníctvu, poľnohospodárstvu, pivovarníctvu, mlynárstvu, chovu dobytka, obuvníctvu, krajčírstvu, kováčstvu a včelárstvu.
+Turci obec spustošili v roku 1627. 
+V roku 1768 postavili pred kostolom súsošie Golgoty a v roku 1901 tiež kaplnku na Kalvárii a postupne krížovú cestu. V roku 1930 bola postavená veľká parná píla a v roku 1948 sa začala stavať hlinická továreň Pohronské strojárne. V roku 1951 bolo v priestoroch kaštieľa zriadené učilište. Od roku 1960 je obec súčasťou okresu Žiar nad Hronom. K 31. 12. 2011 tu žilo 2 974 obyvateľov.
+Bohatá história obce, spôsob života a zvyky jej niekdajších obyvateľov sú spracované v monografii hlinického rodáka, kňaza Andreja Klimana - "Hliník nad Hronom" z r. 1994.
+Kultúra a zaujímavosti.
+Turizmus.
+Chotár obce a jej blízke okolie má mnoho pozoruhodností a zvláštností geologickej a biologickej povahy, čoho dôkazom je aj botanické nálezisko Bralce s unikátnymi rastlinnými druhmi.
+
+</doc>
+<doc id="6850" title="Detektívna literatúra" url="https://sk.wikipedia.org/wiki?curid=6850">
+Detektívna literatúra
+
+Detektívna literatúra (dielo detektívnej literatúry sa volá detektívka; z lat. détegere - odkrývať, odhaľovať) je druh zábavnej literatúry, ktorá je „založená na špecifickom uplatnení fabulačného tajomstva pri odhaľovaní okolností kriminálneho prípadu“. Základom je motív záhady a víťazstva dobra nad zlom, hlavnou postavou je detektív, ktorý sa snaží vyriešiť prípad, chytiť zločinca. Zločinec je potrestaný/ usmrtený, vyhráva dobro. 
+Za prvú detektívnu prózu je pokladaná poviedka Edgara Allana Poea "Vraždy v ulici Morgue" z roku 1841. Medzi najznámejších autorov detektívok patria: Arthur Conan Doyle, Agatha Christie, Michael Connelly, či slovenský prozaik Dominik Dán.
+
+</doc>
+<doc id="6852" title="Dej (literatúra)" url="https://sk.wikipedia.org/wiki?curid=6852">
+Dej (literatúra)
+
+Dej ako literárny pojem je ucelený rad akcií, ktoré nadväzujú špecifické vzťahy s ostatnými kontextami (postáv, vonkajšieho prostredia a rozprávača). 
+Dej rozvinutý do zložitejších kauzálnych súvislostí je jedným z charakteristických znakov epiky a drámy. Dej ako celok prebieha od expozície k rozuzleniu.
+Spätosť jeho jednotlivých fáz a opodstatnenosť dejových zvratov zabezpečuje motivácia.
+Rozpor medzi postupnosťou rozprávania a dynamickou jednotou rozprávaného prebúdza dejové napätie. 
+Podľa množstva odbočiek (digresií) a vsuviek sa rozlišuje dej jednoduchý a dej zložitý. 
+Najsúvislejšia vrstva deja sa nazýva dej hlavný (niekedy rozdvojený na dva deje súbežné alebo napríklad v modernej próze vôbec neidentifikovateľný) v protiklade k viacerým dejom vedľajším. Pokiaľ postava mení svoje životné prostredie, prekračuje hranice dané svojou rolou, sociálnym
+postavením a miestnym určením, je dej dynamický, v opačnom prípade je dej statický. Ak dejové zvraty rezultujú z okolností, vonkajších pomerov a osobných kontaktov, vzniká dej situačný, ak naopak z aktivity postáv, označuje sa dej ako povahový (charakterový). V povahovom deji sú postavy cedené buď étosom, t. j. ustálenou mravnou zásadou - dej etický, alebo pátosom, t. j.
+chvíľkovými vznetmi a náladami - dej patetický.
+
+</doc>
