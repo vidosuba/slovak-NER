@@ -19,11 +19,13 @@ models
  - [Structure of thesis](./diploma/dplm.pdf)
  - [Prodigy](http://http://davidsuba.tk:8888/)
 
-## Used Publications
+## Key Publications
  - [MasakhaNER: Named Entity Recognition for African Languages](https://arxiv.org/pdf/2103.11811.pdf)
  - [Benchmarking Pre-trained Language Models for Multilingual NER: TraSpaS at the BSNLP2021 Shared Task.  InProceedings of the 8th Workshop on Balto-Slavic Natural Language Process-ing](https://www.aclweb.org/anthology/2021.bsnlp-1.13.pdf)
  - [DAGA: Data Augmentation with a Generation Approach for
 Low-resource Tagging Tasks](https://www.aclweb.org/anthology/2020.emnlp-main.488.pdf)
+ - [SlovakBERT: Slovak Masked Language Model](https://arxiv.org/pdf/2109.15254.pdf)
+ - 
 
 ## Progress
  - find all existing Slovak NER datasets
@@ -31,3 +33,9 @@ Low-resource Tagging Tasks](https://www.aclweb.org/anthology/2020.emnlp-main.488
  - train Trankit model on WikiANN
  - train Spacy model on WikiANN
  - deploy and test prodigy tool
+ - ----------
+ - investigate possible text sources for manual annotation
+ - train SlovakBert model on WikiANN
+ - download, clear, filter, tokenize Wikipedia pages from WikiDump
+ - annotate wiki pages with WikiANN model, postprocess labels, load into prodigy with spans
+ -  In Progress: manually correct annotations
