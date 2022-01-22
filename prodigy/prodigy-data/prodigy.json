@@ -1,4 +1,13 @@
 {
   "host": "0.0.0.0",
   "feed_overlap": true,
+  "custom_theme": {
+    "labels": {
+      "LOC": "#fa845b",
+      "ORG": "#04f3eb",
+      "PER": "#f2fa2c",
+      "MISC": "#f89ff8"
+    },
+    "cardMaxWidth": 1000
+  }
 }
