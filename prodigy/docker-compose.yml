@@ -1,5 +1,5 @@
-# Run in terminal:  $ docker-compose up -d
-#                   $ docker-compose exec prodigy bash (interactive bash session)
+# docker-compose up -d
+# docker-compose exec -it prodigy bash
 
 version: "3.3"
 services:
@@ -11,3 +11,5 @@ services:
       - "8888:8080"
     volumes:
       - ./prodigy-data:/data
+    environment:
+      - PRODIGY_LOGGING=verbose

@@ -14,6 +14,7 @@ def process_row(row, conll_2003=False):
 
 
 def count_wiki(in_path, c):
+    '''Count number of entities'''
     with open(in_path) as in_f:
         content = in_f.read()
         for chunk in content.split('\n\n'):
@@ -39,4 +40,5 @@ def main():
         print(c)
 
 
-main()
+if __name__ == "__main__":
+    main()

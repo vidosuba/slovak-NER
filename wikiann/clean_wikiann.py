@@ -2,6 +2,7 @@ import re
 
 
 def process_row(row, conll_2003=False):
+    # remove 'sk' prefix from wikiann datasets
     cleaned = re.sub(r'^sk:', '', row)
     splitted = cleaned.split()
     if len(splitted) <= 0:
@@ -15,7 +16,8 @@ def process_row(row, conll_2003=False):
             return ' '.join([text, tag])
 
 
-def clean_wiki(in_path, out_path):
+def clean_wikiann(in_path, out_path):
+    '''Clean raw wikiANN data and save in txt iob format'''
     with open(in_path) as in_f:
         with open(out_path, 'w') as out_f:
             content = in_f.read()
@@ -31,8 +33,9 @@ def main():
     datasets = ['test', 'dev', 'train']
     for dataset in datasets:
         in_path = f'raw_data/{dataset}.txt'
-        out_path = f'conll2003_data/{dataset}_cleaned.txt'
-        clean_wiki(in_path, out_path)
+        out_path = f'txt_iob_format/{dataset}_cleaned.txt'
+        clean_wikiann(in_path, out_path)
 
 
-main()
+if __name__ == "__main__":
+    main()

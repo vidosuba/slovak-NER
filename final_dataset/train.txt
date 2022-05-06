@@ -27624,7 +27624,7 @@ Corporation I-MISC
 ) O
 , O
 " O
-Powershift.B-MISC
+Powershift B-MISC
 . I-MISC
 Knowledge I-MISC
 , I-MISC
@@ -82776,7 +82776,7 @@ projektom O
 je O
 balík O
 kancelárskych O
-aplikácií
+aplikácií O
 OpenOffice.org B-MISC
 a O
 LibreOffice.org B-MISC
@@ -88100,7 +88100,7 @@ I/79 B-LOC
 ( O
 Vranov B-LOC
 nad I-LOC
-Topľou
+Topľou I-LOC
 Slovenské B-LOC
 Nové I-LOC
 Mesto I-LOC
@@ -106006,7 +106006,7 @@ Prahe B-LOC
 
 V O
 rokoch O
-1862
+1862 O
 - O
 69 O
 ako O
@@ -107992,4 +107992,3 @@ a O
 svetlým O
 zobákom O
 . O
-

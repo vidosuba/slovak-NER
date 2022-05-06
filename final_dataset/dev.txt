@@ -12942,8 +12942,6 @@ Dolnobaňska I-LOC
 kotlovina I-LOC
 . O
 
-
-
 To O
 vynieslo O
 albumu O
@@ -13662,4 +13660,3 @@ sochár O
 Vojtech B-PER
 Löffler I-PER
 . O
-
